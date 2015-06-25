@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercises</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="exercises-page" data-add-back-btn="true" class="page-backdrop">
+
+	<div data-role="header" data-theme="b">
+		<h1>Exercises</h1>
+	</div>
+	
+	<div data-role="content" class="list-content">
+        <ul id="exercises-list" data-role="listview" data-inset="true"></ul>
+    </div>
+
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+		<h4>Lexicon</h4>
+	</div>
+		
+</div>
+
+<script>
+
+//LIST EXERCISES//
+$("#exercises-page").bind("pagebeforecreate", function(e) {
+    $.get("json/exercises.json", {}, function(res,code) {
+      var s = "";
+      for (var i = 0; i < res.length; i++) {
+        s+="<li><a href='activity.html?id="+res[i].id+"'>"+res[i].name+"</a></li>";
+      }
+      $("#exercises-list").html(s).listview("refresh");
+    }, "json");
+});
+
+//LOAD ACTIVITY PAGE//
+$(document).on("pagebeforeshow", "#activity-page", function(e) {
+    var thisPage = $(this);
+    var thisUrl = thisPage.data("url");
+    var thisId = thisUrl.split("=")[1];
+    $.get("json/"+thisId+".json", {}, function(res, code) {
+        $("h1", thisPage).text(res.name);
+        $("#activity-set", thisPage).html(res.set);
+        $("#activity-id", thisPage).html(res.id);
+        $("#activity-desc", thisPage).html(res.description);
+        var u = "";
+        for (var i = 0; i < res.exceptions.length; i++) {
+          if (i < res.exceptions.length - 1) {
+              u+="<span style='color:red'>&#10008</span> "+res.exceptions[i]+"<br>";
+          } else {
+              u+="<span style='color:red'>&#10008</span> "+res.exceptions[i];
+          };
+        }
+        $("#activity-excep", thisPage).html(u);
+        var v = "";
+        for (var i = 0; i < res.tips.length; i++) {
+          if (i < res.tips.length - 1) {
+              v+="<span style='color:green'>&#10003</span> "+res.tips[i]+"<br>";
+          } else {
+              v+="<span style='color:green'>&#10003</span> "+res.tips[i];
+          };
+        }
+        $("#activity-tips", thisPage).html(v);
+        var y = "scoring.html?id="+res.id;
+        $("a#scoring-dialog").attr('href', y);
+        var z = "examples.html?id="+res.id;
+        $("a#examples-dialog").attr('href', z);
+    }, "json");
+});
+
+//LOAD SCORING PAGE//
+$(document).on("pagebeforeshow", "#scoring-page", function(e) {
+    var thisPage = $(this);
+    var thisUrl = thisPage.data("url");
+    var thisId = thisUrl.split("=")[1];
+    $.get("json/"+thisId+".json", {}, function(res, code) {
+        $("h1", thisPage).text(res.name);
+        var a = "";
+        for (var i = 0; i < res.dependent.length; i++) {
+            a+="<li>&#8226 "+res.dependent[i]+"</li>";
+        }
+        $("#score1", thisPage).text(a);
+        var b = "";
+        for (var i = 0; i < res.substantial.length; i++) {
+            b+="<li>&#8226 "+res.substantial[i]+"</li>";
+        }
+        $("#score2", thisPage).html(b);
+        var c = "";
+        for (var i = 0; i < res.partial.length; i++) {
+            c+="<li>&#8226 "+res.partial[i]+"</li>";
+        }
+        $("#score3", thisPage).html(c);
+        var d = "";
+        for (var i = 0; i < res.supervision.length; i++) {
+            d+="<li>&#8226 "+res.supervision[i]+"</li>";
+        }
+        $("#score4", thisPage).html(d);
+        var e = "";
+        for (var i = 0; i < res.setup.length; i++) {
+            e+="<li>&#8226 "+res.setup[i]+"</li>";
+        }
+        $("#score5", thisPage).html(e);
+        var f = "";
+        for (var i = 0; i < res.independent.length; i++) {
+            f+="<li >&#8226 "+res.independent[i]+"</li>";
+        }        
+        $("#score6", thisPage).html(f);
+   }, "json");
+});
+
+//LOAD EXAMPLES PAGE//
+$(document).on("pagebeforecreate", "#examples-page", function(e) {
+    var thisPage = $(this);
+    var thisUrl = thisPage.data("url");
+    var thisId = thisUrl.split("=")[1];
+//Get exercise Name & page header using page id
+    $.get("json/"+thisId+".json", {}, function(res, code) {
+        $("h1", thisPage).text(res.name);
+    }, "json"); 
+//grab & list only the examples for that particular exercise
+    var l = "";
+    $.get("json/examples.json", {}, function(res, code) {
+        var j=1;
+        for (var i = 0; i < res.length; i++) {
+            if (res[i].itemId==thisId) {
+                l+="<li><a href='flashcards.html?id="+res[i].itemId+"no"+j+"' data-rel='dialog' data-transition='pop'>Example "+j+"</a></li>";
+                j++;
+            };
+        }
+        $("#examples-list", thisPage).html(l);
+    }, "json");
+});
+
+//LOAD FLASHCARD PAGE//
+$(document).on("pagebeforeshow", "#flashcard-page", function(e) {
+    var thisPage = $(this);
+    var thisUrl = thisPage.data("url");
+    var a = thisUrl.split("=")[1];
+    var thisId = a.split("no")[0];
+    var thisEx = a.split("no")[1];
+//Get exercise Name & page header using page id
+    $.get("json/"+thisId+".json", {}, function(res, code) {
+        var hed = res.name + " #" + thisEx;
+        $("h3", thisPage).text(hed);
+    }, "json");
+    var q = "";
+    var s = "";
+    $.get("json/examples.json", {}, function(res, code) {
+        var k=1;
+        for (var i = 0; i < res.length; i++) {
+            if (res[i].itemId==thisId) {
+                if (k==thisEx) {
+                    q=res[i].situation;
+                    s="<p><em><span style='text-decoration: underline'>Score</span></em><br><b>"+res[i].score+"</b></p><p><em><span style='text-decoration: underline'>Rationale</span></em><br>"+res[i].rationale+"</p>";
+                } else {
+                    k++;
+                };
+            };
+        }
+        $("#flashcard-situation", thisPage).html(q);
+        $("#flashcard-score", thisPage).html(s);
+    }, "json");
+});
+</script>
+</body>
+</html>

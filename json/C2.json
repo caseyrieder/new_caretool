@@ -1,0 +1,44 @@
+{
+    "name":"Shower/Bathe Self",
+    "set":"Self-Care",
+    "id":"C2",
+    "page":"12",
+    "description":"The ability to bathe self in shower or tub, including washing, rinsing, & drying, self. Does not include transferring in/out of tub/shower.",
+    "exceptions":[
+        "Not about transferring in/out the tub/shower",
+        "Not about washing the entire body outside of a tub or shower"
+    ], 
+    "tips":[
+        "Consider the most usual performance, not the lowest",
+        "If there are orders to not get these areas wet & rating cannot be inferred, the rating is 'N. Not Applicable"
+    ],
+    "dependent":[
+        "Patient may lean forwards, backwards, may be able to hold to grab bars, may be able to raise arms or legs, but Helper does all the effort to wash, rinse & dry patient. The patient contributes no effort to washing, rinsing or drying.",
+        "While patient may be able to participate in some aspects of bathing at bedside, this item measures bathing in the shower/tub."
+    ],
+    "substantial":[
+        "Patient is able to use a washcloth to initiate some washing, but is unable to reach all body parts",
+        "Patient is able to hold showerhead or washcloth to initiate some rinsing, but is unable to completely rinse body",
+        "Patient is able to use a towel to initiate or dry some parts of body, but is unable to reach all body parts",
+        "Patient is able to participate in some aspects of all three, but Helper provides > 50% of the effort"
+    ],
+    "partial":[
+        "Patient is able to use washcloth to wash most of body, but is unable to thoroughly/completely wash all body parts",
+        "Patient is able to hold showerhead or washcloth to rinse most of body, but is unable to thoroughly or completely rinse all body parts",
+        "Patient is able to use a towel to dry most of body, but is unable to thoroughly or completely dry all body parts",
+        "Patient is able to completely wash, rinse, dry some parts body in the tub/shower, but is unable to complete them all & helper provides <50% the effort"
+    ],
+    "supervision":[
+        "Once patient is in shower/tub, helper provides prompting & cueing for sequencing to fully accomplish washing, rinsing & drying self",
+        "There may be concerns about safety w/completing task &/or thoroughly washing all body parts which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for balance/safety when reaching for washcloth, faucet or towel to prevent falling, or to enable patient to thoroughly wash, rinse, & dry all body parts."
+    ],
+    "setup":[
+        "Once in shower/tub, patient needs helper for initial preparation such as handing patient a prepared washcloth, towel or other equipment or in application of an orthosis/prosthesis",
+        "Patient may need helper to draw water or check temperature prior to starting bath."
+    ],
+    "independent":[
+        "Once patient is in shower or tub, patient washes, rinses & dries self w/o helper assistance.",
+        "Patient can use required equipment, such as bathmitt."            
+    ]
+  }

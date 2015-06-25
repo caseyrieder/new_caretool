@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flashcard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="flashcard-page" data-add-back-btn="true">
+
+	<div data-role="header" data-theme="a">
+		<h3></h3>
+	</div>
+
+    <div data-role="content" id="flashcard-situation">
+    
+    </div>
+
+    <a href="#flashcard-score" data-role="button" data-theme="b" class="text-center" data-rel="popup">Score & Rationale</a>
+            
+    <div data-role="popup" id="flashcard-score">
+        <a href="#" data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" class="ui-btn-right">Back to Scenario</a>
+
+        <div>
+            <p id="flashcard-score"></p>
+        </div>
+    </div>
+		
+</div>
+
+    
+<script>
+</script>
+
+</body>
+</html>

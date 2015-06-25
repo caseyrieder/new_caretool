@@ -1,0 +1,65 @@
+
+
+{
+    "name":"Method of Ambulation (Walking, Wheelchair, Both)",
+    "id":"B5",
+    //1 -> B5a; 2 -> B5b, 3 -> B5a and B5b
+    "dependent":[
+        "1. Ambulation Only",
+        "If ambulation is the only mode of mobility, code B5a for the longest distance completed"
+    ],
+    "substantial":[
+        "2. Wheelchair Only",
+        "If WC is the only mode of mobility, code B5b for the longest distance completed"
+    ],
+    "partial":[
+        "3. Both Ambulation & WC",
+        "If Both WC & ambulation are used for mobility, code both B5a & B5b"
+    ],
+    "Data Format":"<digit {1,2,3}>  [\"1\"->B5a; \"2\"->B5b; \"3\"->B5a:B5b]"
+}
+
+{
+    "name":"Longest Distance Walked",
+    "id":"B5a",
+    //***FIRST 1-4, THEN STANDARD 1-6
+    "tips":[
+        "Select only 1 distance.",
+        "1.Walk 150ft/45m",
+        "2.Walk 100ft/30m",
+        "3.Walk 50ft/15m",
+        "4.Walk in Room Once Seated (at least 10ft)",
+        "If patient is unable to walk or walks <10 ft, the score is automatically '1. Dependent'"
+    ],
+    "Data Format":"<number {1,2,3,4}>, <digit {1:6,S,A,N,P}>"
+}
+
+{
+    "name":"Longest Distance Wheeled",
+    "id":"B5b",
+    "tips":[
+        "Select only 1 distance.",
+        "1.Wheel 150ft/45m",
+        "2.Wheel 100ft/30m",
+        "3.Wheel 50ft/15m",
+        "4.Wheel in Room Once Seated (at least 10ft)",
+        "If patient is unable to wheel or wheels <10 ft, the score is automatically '1. Dependent'"
+    ],
+    "Data Format":"<number {1,2,3,4}>, <digit {1:6,S,A,N,P}>"
+    //***FIRST 1-4, THEN STANDARD 1-6
+}
+
+{
+    "name":"Primarily WC",
+    "id":"C7",
+    //0 -> C7a-C7f; 1 -> C7f ONLY
+    "dependent":[
+        "0. NO (Wheelchair is NOT primary form of mobility)",
+        "If NO, code C7a-C7f"
+    ],
+    "substantial":[
+        "1. YES (Wheelcahir IS the primary form of mobility)",
+        "If YES, code C7f ONLY"
+    ]
+}
+

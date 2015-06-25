@@ -1,0 +1,39 @@
+{
+    "name":"1 Step (Curb)",
+    "set":"Mobility",
+    "id":"C7a",
+    "page":"26",
+    "description":"The ability to step over a curb or up & down 1 step",
+    "exceptions":[
+        "Not about wheeling up a ramp"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/o assistance, but is unable to even initiate taking a step up or down. Patient is totally dependent in the task."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) but is unable to lift a foot onto curb/step w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms (if AD used) & lift foot in attempt to step up, but helper provides >50% of the effort to achieve the power to step over /step up & down and/or to maintain balance",
+        "Patient may be able to bear weight through arms & place foot on step/curb, but helper is providing >50% of the effort to stabilize stance knee and/or provide balancing support while getting onto or over curb/step"
+    ],
+    "partial":[
+        "Patient is able to bear weight through arms (if AD used) & is able to lift one foot onto curb/step but needs <50% assistance from helper to step up and/or get 2nd foot onto curb/step, & is able to step down w/<50% assistance",
+        "Patient is able to bear weight through arms (if AD used) & step both feet onto curb/step, & helper provides <50% of assist as patient steps down from curb/step",
+        "Patient may be able to bear weight through arms, step feet on & off the step/curb, but needs helper to provide <50% assistance to stabilize knee(s) &/or provide balancing support"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (if used) or accomplish step up & down",
+        "There may be concerns about safety if using an AD or appropriate sequence of step up & down due to orthopedic precautions",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to help prepare for stepping up on curb/step, by reaching for/positioning AD or applying prosthesis/orthosis. After activity, helper removes AD and/or assists w/prosthesis/orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely steps over a curb or up & down one step with/without an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/special shoes."
+    ]
+}

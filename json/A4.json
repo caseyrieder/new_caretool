@@ -1,0 +1,39 @@
+{
+    "name":"Toilet Hygiene",
+    "set":"Self-Care",
+    "id":"A4",
+    "page":"8",
+    "description":"The ability to maintain perineal hygiene, adjust clothes before & after using toilet, commode, bedpan, urinal. If managing ostomy, include wiping opening but not managing equipment.",
+    "exceptions":[
+    	"Not about how patient gets to the toilet/commode or gets on/off the toilet",
+    	"Not about the level of assistance needed to get to the bedpan/urinal positioned"    	
+    ],
+    "tips":[
+		"Review this item carefully, as it is different than definitions of toilet hygiene on other rating scales you may have used"    
+    ],
+    "dependent":[
+		"Patient is unable to adjust clothing before & after toileting & is unable to maintain perineal hygiene. If using an ostomy, patient is unable to clean the opening."
+    ],
+    "substantial":[
+    	"Patient participates in & provides some effort in clothing management but is dependent in perineal hygiene",
+    	"Patient participates in & provides some effort in perineal hygiene, but is dependent in clothing management",
+    	"Helper provides >50% of the effort overall in assisting patient in (1) clothing management &/or (2) perineal hygiene."    	
+    ],
+	"partial":[
+		"Patient able to manage clothing but helper must assist w/perineal hygiene",
+    	"Patient requires physical assist from helper for managing clothing before/after toileting but is able to demonstrate perineal hygiene",
+    	"Helper provides <50% of the effort overall in (1) clothing management &/or (2) perineal hygiene"
+    
+	],
+	"supervision":[
+		"Prompting & cueing to fully accomplish perineal hygiene may be required",
+    	"There may be concerns about safety which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required while adjusting clothing, belts, w/zipping/unzipping fly/skirt for safety."
+	],
+	"setup":[
+		"Patient needs helper for initial preparation such as handing patient the toilet tissue or placing the bedside commode for nighttime use, or emptying bedside commode/urinal"
+	],
+	"independent":[
+		"Patient adjusts clothing prior to using toilet, gathers toilet paper, wipes front or back fully, adjusts clothing after using toilet, & fastens clothing safely w/o helper assistance. Patient can use required equipment such as dressing stick, or grab bars."		
+	]    
+}

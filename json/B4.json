@@ -1,0 +1,40 @@
+{
+    "name":"Toilet Transfer",
+    "set":"Mobility",
+    "id":"B4",
+    "page":"19",
+    "description":"The ability to safely get on & off a toilet or commode",
+    "exceptions":[
+        "Not about hygiene associated w/toileting",
+        "Not about managing clothing off &/or on"
+    ],
+    "tips":[
+        "The patient may use ADs","Usual care is important"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely getting on & off a toilet or commode. Patient may cross arms over chest in preparation for transfer, but does not participate in the actual task being measured. The transfer may require 1 helper, 2 helpers and/or require a sliding board."
+    ],
+    "substantial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them...or participates in leaning forward to come to a standing position from sitting, but helper provides >50% of the effort to complete the toilet transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or partially placing sliding board underneath them but helper provides >50% of the effort to transfer to/from a commode/toilet.",
+        "Patient is unable to complete preparatory steps to transfer, but once feet are on the floor, the patient is able to generate some power to lean forward, bear weight through legs, move feet, & transfer to/from a commode/toilet.",
+        "Patient is able to complete some of the preparatory steps to transfer, & bears weight/moves feet during transfer, but helper provides >50% of the effort to assist the patient in transferring to/from a commode/toilet."
+    ],
+    "partial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them & participates in leaning forward to come to a standing position from sitting, & helper provides <50% of the effort to complete the toilet transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, scooting to edge, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, & /or placing sliding board underneath them but helper provides some effort to transfer to/from the toilet/commode.",
+        "Patient is unable to complete preparatory steps to get in position/prepare to transfer, but once feet are on the floor or sliding board is in place, the patient is able to lean forward, bear weight through legs & complete the transfer to/from the toilet/commode.",
+        "Patient is able to complete >50% of the preparatory steps to transfer, & >50% of the effort to transfer to a toilet/commode.  Helper provides <50%"
+    ],
+    "supervision":[
+        "Prompting & cueing for sequencing to fully accomplish a safe transfer to/from a commode or toilet",
+        "There may be concerns about safety & accuracy of sitting on toilet/commode, or about balance while seated on toilet which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, standing balance or sliding board placement, eccentric control while lowering self onto toilet, and/or to accurately sit on toilet/commode seat."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation to get on/off toilet or commode (e.g., if approaching by WC): removing or adjusting armrests, locking brakes, lifting footrests, or placing sliding board; or if approaching by ambulation: placement of AD, application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis or sliding board following activity or replace footrests or armrests."
+    ],
+    "independent":[
+        "Patient safely gets on & off a toilet or commode w/o any assistance from helper. Patient completes appropriate safety steps which may include: If approaching by WC: locking brakes, moving footrests, positioning sliding board; and/or if approaching by ambulation: placement of AD, using other required equipment such as orthosis/prosthesis or other AD."
+    ]
+}

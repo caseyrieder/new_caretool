@@ -1,0 +1,19 @@
+{
+    "name":"Method of Ambulation (Walking, Wheelchair, Both)",
+    "set":"Mobility",
+    "id":"B5",
+    "page":"-na-",
+    "description":"Does the patient ambulate and/or use a wheelchair mobility?",
+    "dependent":[
+        "1. Ambulation Only",
+        "If ambulation is the only mode of mobility, code B5a for the longest distance completed"
+    ],
+    "substantial":[
+        "2. Wheelchair Only",
+        "If WC is the only mode of mobility, code B5b for the longest distance completed"
+    ],
+    "partial":[
+        "3. Both Ambulation & WC",
+        "If Both WC & ambulation are used for mobility, code both B5a & B5b"
+    ]
+}

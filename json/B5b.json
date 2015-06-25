@@ -1,0 +1,39 @@
+{
+    "name":"Longest Distance Wheeled",
+    "set":"Mobility",
+    "id":"B5b",
+    "page":"21",
+    "description":"Select the longest distance the patient wheels & code his/her level of independence (Level 1-6) on that distance. Observe performance",
+    "exceptions":[
+        "Not scored if patient does not currently use a WC & is not expected to use a WC",
+        "Not about how patient stands up"
+    ],
+    "tips":[
+        "Select only 1 distance: 1.Wheel 150ft/45m, 2.Wheel 100ft/30m, 3.Wheel 50ft/15m, 4.Wheel in Room Once Seated (at least 10ft)",
+        "If patient is unable to wheel or wheels <10 ft, the score is automatically '1. Dependent'"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of mobility. Helper must propel the patient in the WC.",
+        "*Note:  The only time this score would be used is if the patient is unable to wheel self any distance at all."
+    ],
+    "substantial":[
+        "Patient may be able to advance feet or place heels to the floor in attempts to propel WC/pull WC forward but helper provides >50% of the effort to move the WC forward or maneuver it around obstacles",
+        "Patient may be able to place hands on wheels & push/pull wheels but unable to complete one or more revolutions & helper provides >50% of the effort to move the WC forward"
+    ],
+    "partial":[
+        "Patient able to advance feet & place heels to the floor to propel WC/pull WC forward & helper provides <50% of the effort to move the WC forward or maneuver it around obstacles",
+        "Patient able to place hands on wheels & push/pull wheels to achieve some/most of required revolutions to move WC forward, & helper provides <50% of the effort to get started and/or make turns"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish mobility distance",
+        "There may be concerns about safety when maneuvering WC around obstacles or to avoid self- injury to hands & feet",
+        "Touching/Steadying only may be required for hand/foot placement or to complete full step or full revolution of wheels",
+        "Touching/Steadying only may be required for assisting patient w/turns"
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility, by removing or adjusting armrests, unlocking brakes, removing or lifting footrests or applying prosthesis/orthosis/special shoes. After activity, helper replaces armrests, leg rests and/or assists with prosthesis/orthosis."
+    ],
+    "independent":[
+        "Patient safely propels wheelchair over the distance, making turns and/or moving around obstacles. Patient requires no help w/WC armrests. footrests, brakes or with prosthesis/orthosis/special shoes"
+    ]
+}

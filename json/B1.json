@@ -1,0 +1,39 @@
+{
+    "name":"Lying to Sitting on Side of Bed",
+    "set":"Mobility",
+    "id":"B1",
+    "page":"14",
+    "description":"The ability to safely move from lying on the back to sitting on the side of the bed w/feet flat on the floor, no back support.",
+    "exceptions":[
+        "Not about returning to lying down -- that is covered in another item"
+    ],
+    "tips":[
+        "Consider whether patient requires back support when choosing the rating",
+        "The patient may use assistive devices, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely moving from lying on the back to sitting on the side of the bed w/feet flat on floor, no back support. Patient may cross arms over chest or cross legs in preparation for moving from supine to sit, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient is able to initiate positioning self by reaching for bedrail or bending one knee to push self over, but is unable to initiate any physical effort at rolling over or pushing up to sit. Once sitting, patient requires full assist to stay upright.",
+        "Patient is unable to initiate positioning self for coming to sitting position, but once feet are on floor, patient is able to sit unsupported for intermittent brief periods.",
+        "Patient is able to pull using bedrails, initiate push up from bed, &/or move legs toward the side of the bed, but helper provides >50% of the effort to sit up on side of bed & once sitting, patient requires >50% helper assistance to remain upright."
+    ],
+    "partial":[
+        "Patient participates in safely moving from lying on the back to sitting on the side of bed, & helper provides <50% of the effort",
+        "Patient is able to roll self using bedrail &/or bends one knee to push self over, but is unable to generate enough physical effort to sit up completely w/o helper assistance. Once sitting, patient requires occasional physical assist to stay upright.",
+        "Patient is able to move legs to side of bed, but requires some assistance to sit up; patient can accomplish positioning self on side of bed w/feet on the floor, but is only able to sit unsupported for short periods of time.",
+        "Patient is able to pull using bedrails or initiate push up from bed, & helper provides <50% of the effort to sit up on side of bed & once sitting, patient requires <50% helper assistance to remain upright."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely moving from lying on the back to sitting on the side of the bed w/no back support",
+        "There may be concerns about safety w/completing the task w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, initial sitting balance, sitting balance after fatigue, &/or pelvic stability for sitting w/o back support."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or grab bars, removing bedcovers, or in application of an orthosis/prosthesis. Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following sitting up."
+    ],
+    "independent":[
+        "Patient safely moves from lying on his/her back to sitting on side of bed w/feet flat on the floor w/no back support w/o helper assistance. Patient can use required equipment such as orthosis/prosthesis, bedrails or grab bars."
+    ]
+}

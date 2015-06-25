@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document Session</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="documentsessionpage" class="session-scoring-page" data-dom-cache="true" data-theme="c" data-prev="prevExercise" data-next="nextExercise" data-url="exercise">
+	<div role="main" class="ui-content">
+        <div id="info-exercise" class="info ui-content" data-role="popup" data-position-to="window" data-tolerance="50,50,50,50" data-theme="a">
+            <a href="#" data-rel="back" class="ui-btn ui-btn-right ui-btn-b ui-btn-icon-notext ui-icon-delete ui-corner-all">End</a>
+        </div><!--exercise info popup-->
+    </div><!--content-->	
+</div><!--page-->
+
+<script>
+$(document).one("pagecreate",".session-scoring-page", function() {
+    //Initialize external persistent header & footer
+    $("#header").toolbar({theme:"b"});
+    $("#footer").toolbar({theme:"b"});
+    
+    //Handler for navigating to next page
+    function navnext(next) {
+        $(":mobile-pagecontainer").pagecontainer("change",next+".html", {
+            transition:"slide"
+        });
+    }
+    //Navigate to next on swipeleft
+    $(document).on("swipeleft", ".ui-page", function(event) {
+        var next = $(this).jqmData("next");
+        if (next && (event.target === $(this)[0])) {
+            navnext(next);
+        }
+    });
+    //Navigate to next on click of footer's "next" button
+    $(document).on("click", ".next", function() {
+        var next = $(".ui-page-active").jqmData("next");
+        if (next) {
+            navnext(next);
+        }
+    });
+    
+    //Handler for navigating to previous page
+    function navprev(prev) {
+        $(":mobile-pagecontainer").pagecontainer("change",prev+".html", {
+            transition:"slide",
+            reverse=true
+        });
+    }
+    //Navigate to previous on swiperight
+    $(document).on("swiperight", ".ui-page", function(event) {
+        var prev = $(this).jqmData("prev");
+        if (prev && (event.target === $(this)[0])) {
+            navprev(prev);
+        }
+    });
+    //Navigate to previous on click of footer's "previous" button
+    $(document).on("click", ".prev", function() {
+        var prev = $(".ui-page-active").jqmData("prev");
+        if (prev) {
+            navprev(prev);
+        }
+    });
+});
+
+$(document).on("pageshow", ".session-scoring-page", function() {
+    var thisPage = $(this),
+        title = thisPage.jqmData("name"),
+        next = thisPage.jqmData("next"),
+        prev = thisPage.jqmData("prev");
+    $("#exerciseinfo-button").attr("href","#" + thisPage.find(".info").attr("id"));
+    $("#header h1").text(title);
+    if (next) {
+        $(":mobile-pagecontainer").pagecontainer("load", next+".html");
+    }
+    $(".next.ui-state-disabled, .prev.ui-state-disabled").removeClass("ui-state-disabled");
+    if (! next) {
+        $(".next").addClass("ui-state-disabled");
+    }
+    if (! prev) {
+        $(".prev").addClass("ui-state-disabled");
+    }
+});
+</script>
+
+</body>
+</html>

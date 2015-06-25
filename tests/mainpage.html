@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CARE Tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="customstyles.css"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="main.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="main-menu" class="page-backdrop">
+
+    <div data-role="header" data-theme="b">
+        <h1>Main Menu</h1>
+    </div>
+    
+    <div data-role="content" class="list-content text-center" data-inset="true">
+        <div>
+            <a href="exercises.html" rel="external" data-role="button" data-theme="c">Exercises</a>
+        </div>
+        <div>
+            <a href="training.html" rel="external" data-rel="dialog" data-role="button" data-theme="c">Training</a>
+        </div>
+        <div>
+            <a href="patients.html" data-role="button" rel="external" data-theme="c">Patients</a>
+        </div>
+        <div>
+            <a href="sessions.html" rel="external" data-role="button" data-theme="c">History</a>
+        </div>
+        <div>
+            <a href="addpatient.html" data-rel="dialog" data-role="button" data-theme="c">Add Patient</a>
+        </div>
+        <div>
+            <a href="patients.html" rel="external" data-rel="dialog" data-role="button" data-theme="c">Document Session</a>
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed" class="ui-footer" data-theme="b">
+        <h4>Lexicon</h4>
+    </div>
+        
+</div>
+
+<script>
+$(document).on("pagecreate", "#main-menu", function(e) {
+    init();
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sessions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="sessions-page" data-add-back-btn="true" class="page-backdrop">
+
+	<div data-role="header" data-theme="b">
+		<h1>Sessions</h1>
+	</div>
+	
+	<div data-role="content" class="list-content">
+        <ul id="sessions-list" data-role="listview" data-inset="true"></ul>
+        <div>
+            <a href="documentsession.html" data-rel="dialog" data-role="button" data-theme="c">Document Session</a>
+        </div>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+		<h4>Lexicon</h4>
+	</div>
+		
+</div>
+
+    <script>
+//LIST SESSIONS//
+      //load sessions.json before creating page//
+$("#sessions-page").bind("pagebeforecreate", function(e) {
+    $.get("json/history.json", {}, function(res,code) {
+        var s = "";
+        for (var i = 0; i < res.length; i++) {
+            s+="<li><a href='entry.html?id="+res[i].sessionid+"'>"+res[i].patientname+" ("+res[i].sessiondate+")</a></li>";
+        }
+        $("h1", thisPage).text(res[i].patientname);
+        $("#sessions-list").html(s).listview("refresh");
+    }, "json");
+});
+    </script>
+</body>                                         
+</html>

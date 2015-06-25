@@ -1,0 +1,42 @@
+{
+    "name":"Upper Body Dressing",
+    "set":"Self-Care",
+    "id":"A5",
+    "page":"9",
+    "description":"The ability to put on & remove shirt or pajama top. Includes buttoning if applicable.",
+    "exceptions":[
+    	"Not about putting on & removing clothes patient usually does not wear (eg, does patient usually wear a bra? A pullover?)"
+    ],
+    "tips":[
+		"Patient can be sitting or standing",
+		"Ask patient to put on a shirt or pajama top, fasten it, & then remove it",
+		"Consider patient's usual performance, not the lowest"    
+    ],
+    "dependent":[
+    	"The patient may lean forwards, backwards, may be able to use bedside rails, may be able to raise arms to thread sleeve, but helper does all the effort to put on/remove the UB garment & patient contributes no effort."
+    ],
+    "substantial":[
+    	"Patient participates in putting on/removing UB clothing, but helper provides >50% of the effort",
+    	"Patient is able to bring garment together once it is put on, but is unable to fasten, snap or button it.",
+    	"Patient is able to get one arm in/out of sleeve but not both arms",
+    	"Patient is able to place shirt w/o buttons over head, but is unable to thread either arm through the sleeves"
+    ],
+	"partial":[
+		"Patient participates in putting on/removing UB clothing, but helper provides <50% of the effort",
+	    "Patient is able to put on garment but is unable to fasten, snap or button it.",
+	    "Patient is unable to unbutton/unfasten/unsnap garment, but is able to remove it.",
+	    "Patient is able to place shirt w/o buttons over head, but is unable to thread both arms through sleeves"
+    	],
+	"supervision":[
+		"Prompting & cueing for sequencing to fully accomplish UB dressing are required",
+    	"There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required while putting on/removing shirt or top or in fastening buttons, snaps or Velcro."    
+	],
+	"setup":[
+		"Helper only assists prior to or following UB dressing",
+    	"Patient needs helper for initial preparation such as handing patient garment or handing patient required equipment such as a zipper pull or in application of an orthosis/prosthesis. Patient may need helper to fold clothing & put away after removal."
+    ],
+	"independent":[
+		"Patient puts on the shirt/top, & can button, snap or fasten it, & can unbutton/unfasten/unsnap the shirt or top, & take it off w/o helper assistance. Patient can use required equipment such as zipper pull, buttonholer."
+	]    
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patients</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="patients-page" data-add-back-btn="true" class="page-backdrop">
+
+	<div data-role="header" data-theme="b">
+		<h1>Patients</h1>
+	</div>
+	
+	<div data-role="content" class="list-content">
+        <ul id="patients-list" data-role="listview" data-inset="true"></ul>
+        <div>
+            <a href="addpatient.html" data-rel="dialog" data-role="button" data-theme="c">New Patient</a>
+        </div>
+    </div>
+        
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+		<h4>Lexicon</h4>
+	</div>
+		
+</div>
+
+<script>
+//LIST PATIENTS//
+  $("#patients-page").bind("pagebeforecreate", function(e) {
+    $.get("json/patients.json", {}, function(res,code) {
+      var s = "";
+      for (var i = 0; i < res.length; i++) {
+        s+="<li><a href='sessions.html?id="+res[i].id+"'>"+res[i].name+"</a></li>";
+      }
+      $("#patients-list").html(s).listview("refresh");
+    }, "json");
+  });
+
+//DISPLAY PERSON'S SESSION INFO//
+  $(document).on("pagebeforeshow", "#sessions-page", function(e) {
+    var thisPage = $(this);
+    var thisUrl = thisPage.data("url");
+    var thisId = thisUrl.split("=")[1];
+    $.get("json/sessions.json", {}, function(res,code) {
+        var n = "";
+        for (var j = 0; j < res.length; j++) {
+          if (thisId == null) {
+            n+="<li><a href='entry.html?id="+res[j].sessionid+"'>"+res[j].patientname+" ("+res[j].sessiondate+")</a></li>";
+          } else {
+            if (res[j].patientid == thisId) {
+              n+="<li><a href='entry.html?id="+res[j].sessionid+"'>"+res[j].sessiondate+"</a></li>";
+            } else {
+                continue;
+            };
+            $("h1", thisPage).text(res[j].patientname);
+          };
+        };
+        $("#sessions-list").html(n).listview("refresh");
+    }, "json");
+  });
+  
+  $(document).on("pagebeforecreate", "#entry-page", function(e) {
+    $.get("json/sessions.json", {}, function(res,code) {
+      var s = "";
+      for (var i = 0; i < res.length; i++) {
+        s+="<li><a href='entry.html?id="+res[i].sessionid+"'>"+res[i].patientname+" ("+res[i].sessiondate+")</a></li>";
+        var h = res.patientname+": "+res.sessiondate; 
+        $("h1", thisPage).text(h);
+      }
+      $("#entry-table").html(s).listview("refresh");
+    }, "json");
+  });
+</script>
+
+</body>
+</html>

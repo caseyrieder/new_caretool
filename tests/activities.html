@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Activities</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<!--<link rel="stylesheet" href="customstyles.css"/>-->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="activities.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="activities-page" data-add-back-btn="true">
+
+	<div data-role="header" data-theme="b">
+        <h1></h1>
+    </div>
+    <div data-role="navbar">
+        <ul>
+            <li class="activity-subhead" id="activity-set"></li>
+            <li class="activity-subhead" id="activity-id"></li>
+        </ul>
+    </div>
+
+    <div class="ui-corner-all custom-corners">
+        <div class="ui-bar ui-bar-a">
+            <h3>Description</h3>
+        </div>
+        <div class="ui-body ui-body-a">
+            <p id="activity-desc"></p>
+        </div>
+    </div>
+    
+    <div class="ui-corner-all custom-corners">
+        <div class="ui-bar ui-bar-a">
+            <h3>Exceptions</h3>
+        </div>
+        <div class="ui-body ui-body-a">
+            <p id="activity-excep"></p>
+        </div>
+    </div>
+
+    <div class="ui-corner-all custom-corners">
+        <div class="ui-bar ui-bar-a">
+            <h3>Tips</h3>
+        </div>
+        <div class="ui-body ui-body-a">
+            <p id="activity-tips"></p>
+        </div>
+    </div>
+
+    <div>
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="scoring.html" id="scoring-dialog" rel="external" data-rel="dialog" data-role="button" data-theme="c">Scoring</a>
+            </div>
+            <div class="ui-block-b">
+                <a href="examples.html" id="examples-dialog" rel="external" data-rel="dialog" data-role="button" data-theme="c">Examples</a>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="ui-grid-b text-center ui-responsive">
+        <div class="ui-block-a">
+            <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-notext ui-icon-arrow-l ui-btn-inline">Previous</a>
+        </div>
+        <div class="ui-block-b">
+            <a href="#exercises-page" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-notext ui-icon-grid ui-btn-inline">List</a>
+        </div>
+        <div class="ui-block-c">
+            <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-notext ui-icon-arrow-r ui-btn-inline">Next</a>
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+        <h4>Awearable</h4>
+    </div>
+</div>
+    
+<script>
+$(document).ready(main);
+</script>
+
+</body>
+</html>

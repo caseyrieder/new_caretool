@@ -1,0 +1,44 @@
+{
+    "name":"Wash Upper Body",
+    "set":"Self-Care",
+    "id":"C1",
+    "page":"11",
+    "description":"The ability to wash, rinse, & dry the face, hands, chest, & arms while sitting in a chair or bed.",
+    "exceptions":[
+    	"Not about washing the back",
+    	"Not about scoring whether patient can get in a tub/shower"    
+    ],
+    "tips": [
+		"Patient is in a sitting position for scoring",
+    	"Consider the most usual performance, not the lowest",
+    	"If there are orders to not get these areas wet & rating cannot be inferred, the rating is NA"		    
+    ],
+    "dependent":[
+    	"Once patient is seated in a chair or at bedside, patient is dependent in all aspects of bathing face, hands, chest & arms.",
+    	"Patient may lean forwards, backwards, may be able to hold to armrests or bedrails, may be able to raise arms, but Helper does all the effort to wash, rinse & dry patient's face, hands, chest & arms. The patient contributes no effort to washing, rinsing or drying."
+    ],
+    "substantial":[
+    	"Once patient is seated in a chair or at bedside, patient participates in washing, rinsing &/or drying face, hands, arms & chest, but helper provides >50% the effort. Patient is able to participate in some aspects of all three, but helper provides >50% the effort",
+    	"Patient is able to use a washcloth to initiate some washing, but unable to reach all areas",
+    	"Patient is able to hold washcloth to initiate some rinsing, but unable to completely rinse all areas",
+    	"Patient is able to use towel to initiate or dry some parts of body, but is unable to reach all areas"
+    ],
+	"partial":[
+		"Patient is able to use washcloth to wash face, arms & chest, but is unable to thoroughly/completely wash all areas",
+    	"Patient is able to hold washcloth to rinse hands & arms, but is unable to thoroughly or completely rinse all areas",
+    	"Patient is able to use a towel to dry face, hands & arms, but is unable to thoroughly or completely dry all areas",
+    	"Patient is able to complete 2 of 3 (washing, rinsing, drying), but is unable to complete the 3 tasks"    
+	],
+	"supervision":[
+		"Once patient is seated in chair/at bedside, helper provides prompting & cueing for sequencing to fully accomplish washing, rinsing & drying face, hands, arms & chest",
+    	"There may be concerns about safety w/completing task &/or thoroughly washing all areas which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required for balance/safety when reaching for washcloth, faucet or towel to prevent falling, or to enable patient to thoroughly wash, rinse, & dry all areas."
+   	],
+	"setup":[
+		"Once patient is seated in chair or at bedside, patient needs helper for initial preparation such as handing patient a prepared washcloth, towel or other required equipment or in application of an orthosis/prosthesis.",
+    	"Patient may need helper to draw water or check temperature prior to starting bath."
+    ],
+	"independent":[
+		"Once patient is seated in a chair or at bedside, patient washes, rinses & dries their face, hands, arm & chest w/o helper assistance. Patient can use required equipment, such as a bathmatt."		
+	]    
+}

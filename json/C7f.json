@@ -1,0 +1,42 @@
+{
+    "name":"Car Transfer",
+    "set":"Mobility",
+    "id":"C7f",
+    "page":"23",
+    "description":"The ability to transfer in & out of a car or van on the passenger side.",
+    "exceptions":[
+        "Not about opening /closing the door",
+        "Not about fastening the seat belt"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "A backseat can also be used to test the item",
+        "Usual care is important"
+    ],
+    "dependent":[
+        "Patient may be able to stand up &/or bend over &/or bear weight through legs, but does not participate in the actual task being measured. The transfer may require 1 helper or 2 helpers."
+    ],
+    "substantial":[
+        "Patient participates in stooping, bending or turning to get in position for car transfer, but helper provides >50% of the effort",
+        "Patient is able to stoop, bend or turn & get part of the way in/out of car, but helper provides >50% of the effort to transfer in & out of the car.",
+        "Patient is unable to complete preparatory steps to transfer, but once the patient is sitting in the car seat, he is able to swing legs into car & out of car, but helper provides >50% of total effort to get patient in & out of car",
+        "Patient is unable to complete preparatory steps to get into car & swing legs into & out of car, but once the patient is turned w/feet on the ground, he is able to use AD/car support to initiate some force to stand up from car seat, but helper provides >50% of the total effort to get patient in & out of car"
+    ],
+    "partial":[
+        "Patient participates in stooping, bending or turning to get in position for car transfer , & helper provides <50% of the effort",
+        "Patient is able to stoop, bend or turn & get most of the way in/out of car, & helper provides <50% of the effort to transfer in & out of the car.",
+        "Patient is able to complete most of the steps to transfer in & out of care, but helper provides <50% assistance to swing legs into car & out of car",
+        "Patient is able to complete most of the steps to transfer in & out of car, including swinging legs in & out; once the patient is turned w/feet on the ground, he is able to use AD/car support to initiate most of force to stand up from car seat, but helper provides <50% of the total effort to get patient out of car"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely transferring in & out of a car or van.",
+        "There may be concerns about safety w/completing task w/o falling over or for orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, standing balance, &/or swinging legs in/out of car."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as getting in position close enough to car/van before transferring or in application of an orthosis /prosthesis/special shoes. Patient may need helper to remove orthosis/prosthesis following activity."
+    ],
+    "independent":[
+        "Patient safely transfers in & out of a car or van on the passenger side w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis/special shoes."
+    ]
+}

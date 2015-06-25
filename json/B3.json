@@ -1,0 +1,39 @@
+{
+    "name":"Chair/Bed-to-Chair Transfer",
+    "set":"Mobility",
+    "id":"B3",
+    "page":"18",
+    "description":"The ability to safely transfer to an from a chair (or wheelchair). The chairs are placed at right angles to each other",
+    "exceptions":[
+        "Not about walking a short distance to a chair"
+    ],
+    "tips":[
+        "The patient may use ADs","Usual care is important"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely transferring to/from a chair or WC placed at right angles to each other. Patient may cross arms over chest in preparation for standing or bearing weight through legs, but does not participate in the task being measured. The transfer may require 1 helper, 2 helpers and/or require a sliding board or Hoyer Lift."
+    ],
+    "substantial":[
+        "Patient participates in rocking/leaning/rolling to allow Hoyer sling or sliding board or other device to be placed underneath them...or participates in leaning forward to come to a standing position from sitting in a chair or on the side of the bed, but helper provides >50% of the effort",
+        "Patient is able to complete some or most of the preparatory steps to transfer by securing chair, scooting to edge of chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or partially placing sliding board underneath them but helper provides >50% of the effort to transfer to the chair/WC.",
+        "Patient is unable to complete preparatory steps to transfer, but once feet are on the floor, the patient is able to generate some power to lean forward, bear weight through legs, move feet & transfer",
+        "Patient is able to complete some of the preparatory steps to transfer, & bears weight/moves feet during transfer, but helper provides >50% of the effort to assist the patient in transferring to a chair or WC."
+    ],
+    "partial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them & participates in leaning forward to come to a standing position from sitting in a chair or on the side of the bed, & helper provides <50% of the effort to complete the transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, scooting to edge of chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or placing sliding board underneath them but helper provides <50% effort to transfer to the chair/WC.",
+        "Patient is unable to complete preparatory steps to transfer, or scoot to edge of chair/bed but once feet are on the floor or sliding board is in place, the patient is able to lean forward, bear weight through legs, & complete the transfer.",
+        "Patient is able to complete >50% of the preparatory steps to transfer, & >50% of the effort to transfer to a chair/WC.  Helper provides <50%"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely transferring from a chair/WC placed at right angles",
+        "There may be concerns about safety w/completing task before chair is locked, lifting footrests, or w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying􀀃 only 􀀃may 􀀃be 􀀃required􀀃 for 􀀃hand/foot/trunk􀀃 placement,􀀃 initial􀀃 standing 􀀃balance 􀀃or􀀃 sliding 􀀃board􀀃 placement,􀀃 removing􀀃 armrests, 􀀃locking􀀃 brakes,􀀃 and/or 􀀃using􀀃 assistive 􀀃device􀀃 appropriately􀀃 (if􀀃 necessary)􀀃 once􀀃 standing􀀃 to 􀀃pivot􀀃 and􀀃 transfer.􀀃􀀃"
+    ],
+    "setup":[
+        "Patient􀀃 needs􀀃 helper􀀃 for􀀃 initial􀀃 preparation􀀃 such􀀃 as􀀃 removing􀀃 or􀀃 adjusting 􀀃armrests, locking􀀃 brakes, lifting􀀃 footrests, placing􀀃 sliding􀀃 board,􀀃 or 􀀃in􀀃 application􀀃 of􀀃 an􀀃 orthosis􀀃/􀀃prosthesis.􀀃􀀃 Patient􀀃 may 􀀃need 􀀃helper􀀃 to 􀀃position􀀃 assistive􀀃 device 􀀃(if􀀃 used 􀀃once􀀃 standing).􀀃􀀃 Patient􀀃 may 􀀃need 􀀃helper􀀃 to 􀀃remove􀀃 orthosis/prosthesis􀀃 or 􀀃sliding 􀀃board􀀃 following􀀃 activity􀀃 or 􀀃replace􀀃 footrests 􀀃or􀀃 armrests.􀀃"
+    ],
+    "independent":[
+        "Patient safely transfers􀀃 to􀀃 and􀀃 from􀀃 a􀀃 chair􀀃 or􀀃 WC􀀃 placed􀀃 at􀀃 right 􀀃angles􀀃 to􀀃 each􀀃 other 􀀃without􀀃 any􀀃 assistance􀀃 from􀀃 helper.􀀃􀀃 Patient􀀃 completes􀀃 appropriate􀀃 safety􀀃 steps􀀃 which􀀃 may 􀀃include 􀀃locking 􀀃brakes,􀀃 moving 􀀃footrests,􀀃 positioning 􀀃sliding􀀃 board,􀀃 and/or􀀃 using􀀃 other 􀀃required􀀃 equipment􀀃 such􀀃 as􀀃 orthosis/prosthesis􀀃 or􀀃 other􀀃 assistive􀀃 device.􀀃"
+    ]
+}

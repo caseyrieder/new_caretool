@@ -1,0 +1,40 @@
+{
+    "name":"Pick Up Object",
+    "set":"Mobility",
+    "id":"C5",
+    "page":"22",
+    "description":"The ability to bend/stoop from a standing position to pick up small object such as a spoon from the floor, once the patient is in a standing position",
+    "exceptions":[
+        "Not about how far away from the foot patient can reach"
+    ],
+    "tips":[
+        "Use an object that is easy to grip & easy to see",
+        "Object can be placed in front or to the side the foot",
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of picking up an object from the floor. Once standing, the patient may initiate bending over or bend knees to stoop, but can make no more than minimal motion to participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Once standing, patient participates in bending/stooping to pick up a small object from the floor & standing back up but helper provides >50% of the effort",
+        "Patient is able to bend over or stoop, but is unable to pick up an object or resume upright standing w/o >50% assistance from helper",
+        "Helper provides >50% of the effort to help the patient bend over/stoop from a standing position & resume upright standing, but the patient is able to pick up the small object from the floor."
+    ],
+    "partial":[
+        "Once standing, patient participates in bending/stooping to pick up a small object from the floor & stands back up, & helper provides <50% of the effort",
+        "Patient bends over or stoops, but needs <50% assistance from helper to pick the object up or resume upright standing w/o losing balance",
+        "Helper provides <50% of the effort to assist the patient bend/stoop from a standing position & resume upright standing, but the patient is able to pick up the small object from the floor."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely bending over/stooping from a standing position to pick up a small object from the floor",
+        "There may be concerns about safety w/completing task w/o falling over or to follow orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for bending over, stooping, & standing back up."
+    ],
+    "setup":[
+        "Helper only assists prior to or following bending or stooping from a standing position to pick up an object from the floor.",
+        "Patient needs helper for initial preparation such as getting in position close enough to the object before bending over/stooping or in application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis following activity."
+    ],
+    "independent":[
+        "Patient safely bends over/stoops from a standing position to pick up small object from the floor w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis."
+    ]
+}

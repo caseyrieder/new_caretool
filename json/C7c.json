@@ -1,0 +1,40 @@
+{
+    "name":"12 Steps",
+    "set":"Mobility",
+    "id":"C7c",
+    "page":"28",
+    "description":"The ability to go up & down 12 steps w/or w/o a rail",
+    "exceptions":[
+        "Not about how quickly patient accomplishes the task",
+        "Not about only one direction -- up or down -- rather it is up and down"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up with/without assistance & hold to rail, but is unable to go up & down 12 steps."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but is unable to achieve the power necessary to go up & down 12 steps w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms (if AD used) &/or use rail & go up 12 steps, but helper provides >50% assistance because the patient is unable to turn around at top of steps & go back down 12 steps",
+        "Patient may be able to bear weight through arms &/or use rail but is unable to get up the stairs & turn around w/o >50% assistance from helper, but is able to come down the 12 steps"
+    ],
+    "partial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but needs <50% assistance from helper to achieve the power necessary to go all the way up & down 12 steps",
+        "Patient may be able to bear weight through arms (if AD used) &/or use rail & go up & down 12 steps, but requires <50% assistance from the helper to turn around at top of steps",
+        "Patient may be able to bear weight through arms &/or use rail but needs <50% assistance to get initiate going up the first few steps",
+        "Patient is able to complete the 12 steps up & turn around, but then needs <50% assistance from helper coming down the steps to stabilize the knees and/or provide balancing support"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (If used) or handrail to accomplish going up & down 12 steps",
+        "There may be concerns about safety when using the AD or appropriate sequence of stepping up & down due to orthopedic precautions",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, for turning at top of stairs, or for weight- bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for going up/down 12 steps, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists w/prosthesis /orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely goes up & down 12 steps with/without an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/special shoes."]
+}

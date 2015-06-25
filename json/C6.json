@@ -1,0 +1,40 @@
+{
+    "name":"Putting On/Taking Off Footwear",
+    "set":"Self-Care",
+    "id":"C6",
+    "page":"13",
+    "description":"The ability to put on & take off socks & shoes or other footwear that are appropriate for safe mobility.",
+    "exceptions":[
+        "Not about the ability to put on & remove compression/anti-embolism stockings"
+    ],
+    "tips":[
+        "Consider the most usual performance, not the lowest",
+        "If patient needs help getting compression/anti-embolism stockings on, but is independent w/everything else in the item, the maximum score will be a '5'"
+    ],
+    "dependent":[
+        "The patient may be able to raise legs/feet to allow helper to put the shoes/socks on, but helper does all the effort to put on/remove socks & shoes or other footwear & patient contributes no effort to the task."
+    ],
+    "substantial":[
+        "Patient participates in putting on/taking off shoes/footwear, but helper provides >50% of the effort",
+        "Patient is able to bring sock or shoe to the foot, but is unable to pull them on & snugly fit them on foot.",
+        "Once helper starts sock, patient is able to pull it on, but patient is unable to assist w/shoes/footwear",
+        "Patient is unable to assist w/socks, but once helper fits shoe/footwear on distal part of foot, patient is able to slip the entire foot into shoe/footwear"
+    ],
+    "partial":[
+        "Patient participates in putting on/taking off shoes/footwear, & helper provides <50% of the effort",
+        "Patient is able to pull on sock or shoe, but is unable to completely pull them on to fit snugly on foot w/or w/o adaptive equipment if necessary.",
+        "Once helper starts sock, patient is able to pull it on & once helper fits shoe/footwear on distal part of foot, patient is able to slip the entire foot into the shoe/footwear w/or w/o adaptive equipment if necessary."
+    ],
+    "supervision":[
+        "The patient requires prompting & cueing for sequencing to fully accomplish putting on & taking off socks, shoes, or other footwear w/or w/o adaptive equipment.",
+        "There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required while reaching forward to put on or take off shoes/socks or in fastening Velcro or tying shoe laces or in using adaptive equipment safely & correctly"
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as handing patient socks/shoes or handing patient required equipment such as sock aid, shoe horn or in application of an orthosis/prosthesis/compression stockings. Patient may need helper to smooth stockings, or tie shoelaces or fasten velcro once shoes/footwear are on",
+        "Note: If a patient can complete all tasks of putting on/taking off footwear except putting on/taking off compression stockings, the score would be a '5'"
+    ],
+    "independent":[
+        "Patient puts on socks, shoes or other footwear (including compression stockings) & can tie/velcro the footwear as well as remove the footwear & socks/stockings w/o helper assistance. Patient can use required equipment such as sock aid or shoe horn."
+    ]
+}

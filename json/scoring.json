@@ -1,0 +1,113 @@
+[{
+     "id":"1",
+     "score":"1",
+     "name":"1. Dependent",
+     "description":"Helper does all of the effort. Patient does none of the effort to complete the task. (When the patient can't perform the task because of medical reasons, a rating of '1. Dependent' is chosen)."
+ },{
+     "id":"2",
+     "score":"2",
+     "name":"2. Substantial/Maximal Assistance (>50%)",
+     "description":"Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than helf the effort."
+ },{
+     "id":"3",
+     "score":"3",
+     "name":"3. Partial/Moderate Assistance (<50%)",
+     "description":"Helper does less than half the effort. Helper lifts or holds trunk or limbs, but provides less than helf the effort."
+ },{
+     "id":"4",
+     "score":"4",
+     "name":"4. Supervision/Touching Assistance",
+     "description":"Helper provides verbal cues or touching/steadying assistance; patient completes the activity. Assistance may be provided throughout the activity or intermittently."
+ },{
+     "id":"5",
+     "score":"5",
+     "name":"5. Setup/Clean-Up Assistance",
+     "description":"Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity."
+ },{
+     "id":"6",
+     "score":"6",
+     "name":"6. Independent",
+     "description":"Patient completes the activity by him/herself with no assistance from a helper."
+ },{
+     "id":"7",
+     "score":"S",
+     "name":"S. Not Attempted due to Safety Concerns",
+     "description":"The taks is not attempted due to safety concerns and the terapist cannot infer their level of dependence for that task based on other parts of the evaluation."
+ },{
+     "id":"8",
+     "score":"N",
+     "name":"N. Not Applicable",
+     "description":[
+         "Choose this rating when the person is not expected to perform the task now or in the future.",
+         "Exception:",
+         " -For 'Walking and Wheelchair – Longest Distance Walked' the therapist scores only one distance (the maximum distance walked or wheeled, and leave the other distance ratings blank).",
+         "Examples:",
+         " -Some patients may never drive or travel; therefore car transfers are 'N'",
+         " -A patient is not returning to a living situation where going up/down stairs is necessary",
+         " -An amputee patient is not a candidate for a prosthesis she/she will never walk",
+         " -A patient is not a candidate for ambulation, so going up/down steps is not a goal",
+         "Do not use this just because the task was not tested.",
+         "Do not use it just because you are not including it in your plan of treatment.",
+         "If a patient cannot complete a specific task, the therapist may be able to infer the answer for the other similar tasks (e.g., if a patient cannot do a toilet transfer, then perhaps it can be inferred what chair-to-bed transfers are)."
+     ]
+ },{
+     "id":"9",
+     "score":"A",
+     "name":"A. Task Attempted by not completed",
+     "description":[
+         "There may be times when the evaluation is interrupted due to:",
+         " -A family visit",
+         " -The patient had another appointment",
+         " -The patient had to receive medication",
+         " -Equipment failure",
+         "This rating should be rarely used, because most of the time the clinician should be able to go back to the patient and complete the evaluation at another time."
+     ]
+ },{
+     "id":"10",
+     "score":"P",
+     "name":"P. Patient Refused",
+     "description":[
+         "'Refused'=Patient does not 'want' to try it.",
+         "If the patient refuses because he/she can't do it or felt unsafe, the item should be rated as '1. Dependent'"
+     ]
+ },{
+     "id":"11",
+     "score":"1",
+     "name":"1. Walk 150ft/45m",
+     "description":"Once standing, the patient can walk at least 150ft (45m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"12",
+     "score":"2",
+     "name":"2. Walk 100ft/30m",
+     "description":"Once standing, the patient can walk between 100ft (30m) and 150ft (45m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"13",
+     "score":"3",
+     "name":"3. Walk 50ft/15m",
+     "description":"Once standing, the patient can walk between 50ft (15m) and 100ft (30m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"14",
+     "score":"4",
+     "name":"4. Walk in Room Once Standing (at least 10ft)",
+     "description":"Once standing, the patient can move in a room or walk between 10ft (3m) and 50ft (15m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"15",
+     "score":"1",
+     "name":"1. Wheel 150ft/45m",
+     "description":"Once seated, the patient can wheel at least 150ft (45m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"16",
+     "score":"2",
+     "name":"2. Wheel 100ft/30m",
+     "description":"Once seated, the patient can wheel between 100ft (30m) and 150ft (45m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"17",
+     "score":"3",
+     "name":"3. Wheel 50ft/15m",
+     "description":"Once seated, the patient can wheel between 50ft (15m) and 100ft (30m) in a corridor or similar space, with or without any level of helper assistance"
+ },{
+     "id":"18",
+     "score":"4",
+     "name":"4. Wheel in Room Once Seated (at least 10ft)",
+     "description":"Once seated, the patient can move in a room or wheel between 10ft (3m) and 50ft (15m) in a corridor or similar space, with or without any level of helper assistance"
+ }]

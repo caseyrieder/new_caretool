@@ -1,0 +1,40 @@
+{
+    "name":"Longest Distance Walked",
+    "set":"Mobility",
+    "id":"B5a",
+    "page":"20",
+    "description":"Select the longest distance the patient walks & code his/her level of independence (Level 1-6) on that distance. Observe performance",
+    "exceptions":[
+        "Not scored if patient does not currently walk & is not expected to walk",
+        "Not about how patient stands up"
+    ],
+    "tips":[
+        "Select only 1 distance: 1.Walk 150ft/45m, 2.Walk 100ft/30m, 3.Walk 50ft/15m, 4.Walk in Room Once Standing (at least 10ft)",
+        "If patient is unable to walk or walks <10 feet, the score is automatically 'Dependent: 1'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/assistance, but is unable to take steps.",
+        "*Note* The only time this score would be used is if the patient is unable to ambulate any distance at all."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) & advance one or two feet in attempts to walk, but helper provides >50% of the effort to achieve the motion",
+        "Patient may be able to bear weight through arms (if AD used) but requires assistance to advance an impaired limb or advance the AD w/o assistance from helper",
+        "Patient may be able to bear weight through arms & take some steps, but helper is providing >50% of the effort to advance the AD and/or provide support to the patient to remain upright."
+    ],
+    "partial":[
+        "Patient able to bear weight through arms (if AD used), advance feet and/or AD to walk, & helper provides <50% of the effort to achieve the motion",
+        "Patient able to bear weight through arms (if AD used), take some steps, & advance AD, & helper is providing <50% of the effort to provide support to the patient to remain upright, or assist w/advancing the AD, or brace/position an impaired limb",
+        "Patient able to walk, but helper is providing <50% of the effort to insure appropriate weight-bearing restrictions are met"
+    ],
+    "supervision":[
+        "Patient needs prompting & cueing for sequencing to use AD or accomplish mobility distance",
+        "There may be concerns about safety when using the AD around obstacles or gait speed/step height/step length",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility, by reaching for/positioning AD or applying prosthesis/orthosis/brace/special shoes. After activity, helper removes AD and/or assists w/prosthesis/orthosis/brace/special shoes."
+    ],
+    "independent":[
+        "Patient safely walks the distance w/w/o an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/brace/special shoes."
+    ]
+}

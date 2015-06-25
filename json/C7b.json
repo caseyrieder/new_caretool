@@ -1,0 +1,40 @@
+{
+    "name":"Walk 50 feet w/2 Turns",
+    "set":"Mobility",
+    "id":"C7b",
+    "page":"24",
+    "description":"The ability to walk 50 feet & make 2 turns, once standing",
+    "exceptions":[
+        "Not about the ability to stand up or sit down"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/o assistance, but is unable to walk 50 feet & make two turns."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) & walk part of the distance, but helper provides >50% of the effort to complete the activity",
+        "Patient may be able to bear weight through arms (if AD used) & walk the first 25 feet but is unable to turn, walk the 2nd 25 feet & turn again w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms & walk the distance, but helper is providing >50% of the effort to advance walker &/or complete turns and/or provide support to the patient to remain upright during directional changes."
+    ],
+    "partial":[
+        "Patient able to bear weight through arms (if AD used), walk 25 feet turn, walk 25 feet & turn again, but helper is needed to provide <50% of the effort to complete the activity",
+        "Patient able to bear weight through arms (if AD used), walk the distance & advance walker, & helper is giving <50% of the effort to provide support to the patient during turns, or assist w/directional changes.",
+        "Patient able to walk & turn, but helper is providing <50% of the effort to insure appropriate weight-bearing restrictions are met"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (if applicable) or accomplish both turns",
+        "There may be concerns about safety when using the AD during turns",
+        "There may be concerns about gait speed/step height/step length",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, and/or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility task, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists w/prosthesis/orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely walks the distance & completes two turns with/without an AD. Patient requires no help w/the AD or with prosthesis/orthosis/special shoes."
+    ]
+}

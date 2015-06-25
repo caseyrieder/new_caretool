@@ -1,0 +1,435 @@
+[
+    {
+        "id":"A1",
+        "name":"Eating",
+        "situation":"Helper puts tray on Mr.H's table & opens milk container. Mr.H. eats w/o further assistance. Helper removes the tray once Mr.H is done eating. Mr.H does not have feeding tube.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper opens Mr.H's milk container.  This is setup assistance.  Delivery & pick up of trays is not considered in scoring Eating."
+    },{
+        "id":"A1",
+        "name":"Eating",
+        "situation":"Mrs.V has had difficulty seeing on her left side since her stroke. At meals, helper reminds her to scan entire tray ensureing she has seen all food items. She does not get any physical helper assistance. Mrs.V does not have feeding tube.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides verbal cues so patient sees & eats all her food."
+    },{
+        "id":"A1",
+        "name":"Eating",
+        "situation":"Mrs.Y is home care patient. Her intake is limited to foods like applesauce, yogurt & pureed meats.  She feeds self after husband opens containers. About half her calories & fluid needs are received from PEG feedings. She administers her feedings after her husband brings her supplies & opens the containers. He also removes empty containers & cleans supplies.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Mrs.H does not have dietary restrictions, but sometimes needs 2-3 swallows so food clears throat due to difficulty w/pharyngeal peristalsis. She requires verbal cues to use the compensatory strategy/extra swallows to clear food."
+    },{
+        "id":"A1",
+        "name":"Eating",
+        "situation":"Mrs.H does not have dietary restrictions, but sometimes needs 2-3 swallows so the food clears throat due to difficulty w/pharyngeal peristalsis. She requires verbal cues to use the compensatory strategy/extra swallows to clear food.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Mrs.H swallows all types of food consistencies, but requires verbal cueing from helper."
+    },{
+        "id":"A3",
+        "name":"Oral Hygiene",
+        "situation":"Mrs.F brushes her teeth while sitting on the side of bed. Helper gathers toothbrush, toothpaste, water & empty cup & puts them on bedside table for her.  Once Mrs.F. finishes brushing teeth, which she does w/o any help, helper returns to gather her items & dispose waste.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides setup/clean-up assistance. The patient brushes teeth w/o any help."
+    },{
+        "id":"A3",
+        "name":"Oral Hygiene",
+        "situation":"Mr.S brushes teeth at sink in the bathroom. Helper provides steadying assistance to Mr.S as he walks to bathroom. Helper applies toothpaste onto toothbrush.  Once done w/oral hygiene & washing his hands/face, helper provides steadying assistance as patient walks back to bed.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides setup assistance (putting toothpaste on the toothbrush) so that Mr.S can brush his teeth. Do not consider assistance provided to get to or from the bathroom to score Oral Hygiene."
+    },{
+        "id":"A3",
+        "name":"Oral Hygiene",
+        "situation":"Mr.W begins to brush his teeth after helper applies toothpaste onto toothbrush. He brushes his top front teeth, but cannot finish due to fatigue. Helper completes the activity by brushing back-upper teeth & all lower-teeth.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Patient begins activity. Helper completes activity by performing >50% of the effort."
+    },{
+        "id":"A4",
+        "name":"---",
+        "situation":"Mrs.R transfers onto toilet & pulls down her underwear & pants as helper provides moderate assistance. After voiding, she cleanses self. She then stands up & pulls up underwear & pants as helper steadies her.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides steadying assistance as patient performs toilet hygiene tasks. The assistance provided to Mrs.R as she gets onto & off toilet is not considered for the Toilet Hygiene Item. It would be scored under Toilet Transfer."
+    },{
+        "id":"A4",
+        "name":"Toilet Hygiene",
+        "situation":"Mrs.L uses toilet to void & have bowel movements. A helper walks into bathroom w/her in case she needs help w/transferring or adjusting clothing.  During the last 2 days, Helper has been present in the bathroom, but has not provided any physical assistance w/managing clothes or cleansing.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides supervision as patient performs toilet hygiene tasks."
+    },{
+        "id":"A4",
+        "name":"Toilet Hygiene",
+        "situation":"Mrs.P has urinary urgency. As soon as she gets in bathroom, she asks assistant to lift her gown & pull down her underwear. After voiding, Mrs.P wipes self & pulls her underwear back up.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"Helper provides more than touching assistance. But patient does 2 the 3 toilet hygiene tasks.  Therefore patient does more than half the effort & Helper does less than half the effort."
+    },{
+        "id":"A4",
+        "name":"Toilet Hygiene",
+        "situation":"Mr.D has a catheter, but needs to use the toilet to have a bowel movement. He can ambulate into bathroom on his own & sit down on the commode.  He requires a helper to hang catheter appropriately on the cabinet next to toilet.  When he is through he lets helper know, & helper hands him toilet paper for him to wipe self.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Patient needs helper for initial preparation to hang Foley bag appropriately while he is sitting on toilet.  Patient then needs helper to hand him toilet paper afterwards to prevent him from having to reach.  The patient performs activity of toilet hygiene independently."
+    },{
+        "id":"A5",
+        "name":"Upper Body Dressing",
+        "situation":"Mrs.Z wears a bra & a sweatshirt most days in rehabilitation program. Mrs.Z threads her arms through the bra straps & helper hooks the bra. Mrs.Z puts her sweatshirt on w/o any assistance.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"Helper provides assistance w/UB dressing, but patient performs more than half the effort."
+    },{
+        "id":"A5",
+        "name":"Upper Body Dressing",
+        "situation":"Mr.B dresses his UB independently once his sweatshirt is placed next to him on his bed.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"The patient dresses self once helper provides setup assistance."
+    },{
+        "id":"A5",
+        "name":"Upper Body Dressing",
+        "situation":"Mr.X sits on side of bed to dress his UB.  He is able to thread his arms through sleeves of his button-down shirt, but requires steadying as he leans to his left side to insure he does not fall over.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"The patient can dress his UB, but requires occasional touching to steady him as he leans to his weak side for safety reasons."
+    },{
+        "id":"A6",
+        "name":"Lower Body Dressing",
+        "situation":"Mrs.Z requires supervision when standing to pull up her underpants & pants due to balance problems.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper does not provide any physical assistance but is required to supervise patient due to safety concerns."
+    },{
+        "id":"A6",
+        "name":"Lower Body Dressing",
+        "situation":"Mr.B is unable to thread his pants or underpants on his feet due to hip precautions. Once Helper begins to thread pants & underpants, Mr.B pulls them up to knees, stands & pulls them up around hips & zips pants. Helper puts on socks & shoes.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"Helper performs physical assist but for less than half the tasks of LB dressing.  This item does not address putting on footwear - that assistance will be coded in another item."
+    },{
+        "id":"A6",
+        "name":"Lower Body Dressing",
+        "situation":"Mr.Z is unable to remove his pants/underpants independently. Once lying down in the bed, he can unfasten pants.  He can roll slightly to his right & left & assist helper to pull pants over his hips.  He can lift each leg one at a time so helper can remove pants & underpants.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Helper performs physical assist for more than half the tasks of LB dressing.  Patient does participate some in the task by unfastening pants & assisting w/pulling pants down over his hips."
+    },{
+        "id":"C1",
+        "name":"Wash Upper Body",
+        "situation":"After helper places the wash basin filled w/water, soap, a washcloth & towel on the bedside table, Mrs.L washes, rinses, & dries her UB. She asks helper to wash, rinse & dry her back only. Helper also removes all the items once Mrs.L is done.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides setup assistance. Assistance w/washing the back is not considered when rating this item."
+    },{
+        "id":"C1",
+        "name":"Wash Upper Body",
+        "situation":"Mrs.M is assisted to a shower chair & requires assistance of one to support her sitting up.  Helper prepares the water & a washcloth & hands it to Mrs.M instructing her to wash her face.  While helper washes & rinses the rest of her UB, Mrs.M washes one side of her face w/her washcloth, but helper finishes it & dries her off.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Mrs.M participated in the activity, but helper provided > 50% the effort to complete washing her UB."
+    },{
+        "id":"C1",
+        "name":"Wash Upper Body",
+        "situation":"Mrs.O is recovering from pneumonia.  After Helper places the wash basin filled w/water, soap, a washcloth & a towel on the bedside table, Mrs.O washes & rinses her UB.  She is too fatigued to dry self completely & helper notices her oxygen saturation levels are at 86% after she finishes rinsing self.  Helper dries her off & removes all the items.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"Mrs.O was able to complete two the three activities in washing her UB, but could not completely dry self, requiring Helper to provide less than half the effort in the task."
+    },{
+        "id":"C2",
+        "name":"Shower/Bathe Self",
+        "situation":"Mr.J. sits on a tub bench as he washes, rinses & dries self. Helper stays w/him to ensure safety & provides lifting assistance as he gets onto/off the tub bench.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides supervision as Mr.J. washes, rinses, & dries self in the tub."
+    },{
+        "id":"C2",
+        "name":"Shower/Bathe Self",
+        "situation":"Mrs.L. stands while showering self. She prefers not to use a stool as she says it doesn't look nice in her shower. She washes & rinses self except she is not able to safely reach from her knees down to her feet & asks her husband to assist w/this part of her care. Mrs.L sits on the toilet seat to dry self including her feet.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"The husband is assisting w/<50% of the task. Mrs.L washed her body except from the knees to feet & rinsed & dried her entire body."
+    },{
+        "id":"C6",
+        "name":"Putting On/Taking Off Footwear",
+        "situation":"Mrs.K. sits on the side bed. Helper puts her slipper over her forefoot & then instructs Mrs.K to pull the slipper over her heel.  Mrs.K is able to do this, the process is repeated on the other foot.  Mrs.K is able to get slippers off her feet w/o assistance.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"The patient requires assistance from helper to start task, but once the slipper is started, patient can complete task."
+    },{
+        "id":"C6",
+        "name":"Putting On/Taking Off Footwear",
+        "situation":"Mrs.D is recovering from left total hip replacement surgery.  She is sitting on the side of the bed dressing for her rehab session.  Her socks & shoes are handed to her, & she puts them on her right foot w/o difficulty.  Helper hands her the sock aid & she requires verbal cues to place the sock on the sock aid.  As she goes to put the sock on, she requires steadying for safety on the side of the bed, also to avoid excessive hip flexion.  She is able to slide her foot into her shoe, but requires help from helper to tie shoe. She requires assistance from helper to untie shoes, to avoid excessive hip flexion.  Using her sock aid, she can remove her socks, but requires steadying on the side of the bed.",
+        "score":"4. Supervision  Touching Assistance",
+        "rationale":"Patient requires verbal cues & touching assistance for steadying self & as tactile reminders to avoid excessive hip flexion.  Other than that, she is able to put on/remove her footwear"
+    },{
+        "id":"C6",
+        "name":"Putting On/Taking Off Footwear",
+        "situation":"Mrs.G. has orders to wear compression stockings when out of bed to control lower extremity edema.  She cannot get them started on her own, but once the stockings are over her ankles, she can assist w/pulling up & smoothing them.  After her stockings are on, she is able to put slippers on w/o assistance.  Mrs.G occasionally requires assistance to remove her stockings depending on the amount of swelling.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"The patient requires assistance to get compression stockings on/off.  This item does not include the amount of assistance necessary to put on/remove compression stockings.  If a patient is unable to get them on/off independently, their maximum score for this item is a '5'.  If a patient can get them on/off independently, their score would be a '6'."
+    },{
+        "id":"B1",
+        "name":"Lying to Sitting on Side of Bed",
+        "situation":"Mr.B. pushes up on the bed to get self from a lying to a seated position. Helper provides steadying assistance as Mr.B. scoots self to the edge the bed & lowers feet to floor.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides touching assistance as patient moves from a lying to sitting position."
+    },{
+        "id":"B1",
+        "name":"Lying to Sitting on Side of Bed",
+        "situation":"Mr.M. is blind.  Once the bed rails are put in the upright position & the bed is lowered, Mr.M. can push up on the bed, using the rail to get self from a lying to a seated position. Mr.M. can scoot self to the edge of the bed & lowers his feet to floor.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides set up assistance by positioning the bed so patient can move from a lying to sitting position."
+    },{
+        "id":"B1",
+        "name":"Lying to Sitting on Side of Bed",
+        "situation":"Mrs.W can reach for the bedrails & initiates pulling self to her side.  She can initiate raising one leg in an effort to use her leg to push self over, but she requires assistance from helper to roll over. Once she is on her side, she requires helper to raise her up to a sitting position.  She can sit upright w/steadying for <1 second at a time, & requires full assistance otherwise to remain upright.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Patient attempts to participate in the activity, but helper provides more than half the effort to complete the task."
+    },{
+        "id":"B2",
+        "name":"Sit to Stand",
+        "situation":"As Mr.M. gets from a sitting to standing position, helper touches his arm to steady him.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides touching assistance only."
+    },{
+        "id":"B2",
+        "name":"Sit to Stand",
+        "situation":"Mrs.D. arrives to the therapy gym in a wheelchair & is ready to start gait training w/her new prosthesis.  Therapist assists her by putting on her prosthesis, & positions wheelchair in front of parallel bars.  Once in position, Mrs.D. stands up from the wheelchair & steadies self on the parallel bars.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper assists Mrs.D w/getting ready to stand by positioning the wheelchair in front of parallel bars & putting on her prosthesis.  Mrs.D. is able to stand up by self after getting set up."
+    },{
+        "id":"B2",
+        "name":"Sit to Stand",
+        "situation":"Mr.A arrives for his evaluation s/p total knee replacement.  He is able to scoot to the edge of chair but is impaired by the fear of pain he will feel in his knee.  He is instructed to place his hands on the armrests of chair & push up, but is only able to initiate some power to push up.  He requires assistance to get to a standing position & place his hands appropriately on the walker.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Mr.A is able to do some of the preparatory activities for standing up.  But Helper provides more than half the effort to assist him to a standing position."
+    },{
+        "id":"B3",
+        "name":"Chair/Bed-to-Chair Transfer",
+        "situation":"Mr.L. had a stroke 3 days ago & uses a WC for mobility. When Mr.L. gets out of bed, helper moves the WC into correct position, & locks the brakes so that Mr.L. can transfer into WC safely. Mr.L. transfers into WC by self (no helper) about 10 minutes later.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides setup assistance. Mr.L. does not need help during the transfer."
+    },{
+        "id":"B3",
+        "name":"Chair/Bed-to-Chair Transfer",
+        "situation":"Helper provides lifting assistance as Mrs.Z. moves from the bed to a chair. Mrs.Z. provides some effort during the transfer, but helper provides more effort than patient.",
+        "score":"2. Substantial/Maximal Assistance",
+        "rationale":"Helper provides more effort than patient."
+    },{
+        "id":"B3",
+        "name":"Chair/Bed-to-Chair Transfer",
+        "situation":"Mr.R scoots to the edge of WC in preparation for transferring to bed.  He is forgetful, & helper must remind him to lock WC prior to standing.  He stands on his own but faces the bed forward.  Helper cues him to turn around & sit down on bed.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Patient can transfer to chair/bed to chair but helper must provide verbal cues for patient to complete the task safely."
+    },{
+        "id":"B4",
+        "name":"Toilet Transfer",
+        "situation":"Mrs.Y. is anxious about getting up to use the bathroom. She asks helperto stay w/her in the bathroom as she gets on & off the toilet. The helper stays w/her, as requested, & provides verbal encouragement to Mrs.Y.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"Helper provides supervision/verbal cues as Mrs.Y. transfers onto & off the toilet."
+    },{
+        "id":"B4",
+        "name":"Toilet Transfer",
+        "situation":"Mrs.S. is ordered to stay on bedrest. She is able to use a bedpan independently for bladder & bowel management.",
+        "score":"1. Dependent",
+        "rationale":"Patient does not transfer onto or off a toilet due to an order to remain on bedrest."
+    },{
+        "id":"B4",
+        "name":"Toilet Transfer",
+        "situation":"Helper moves the WC foot rests up so that Ms.T can transfer onto the toilet safely. Once Mrs.T. is done, she flips the foot rests back down self.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Helper provides setup assistance (moving the foot rest out the way) before Mrs.T. can transfer safely onto the toilet."
+    },{
+        "id":"B4",
+        "name":"Toilet Transfer",
+        "situation":"Mrs.O. is weak from her pneumonia.  She asks helper to assist her getting on & off the toilet. Mrs.O. can scoot to the edge the chair.  She requires assistance to push up to a standing position.  Once standing she can pivot her feet & sit down on the toilet.  When finished toileting, she needs assistance to rock forward & stand back up.  Once up on her feet, she can pivot & sit back down in her chair.",
+        "score":"3. Partial/Moderate Assistance",
+        "rationale":"Helper provides less than half the assistance for Mrs.O to get to/from the toilet.  Mrs.O provides >50% of the effort."
+    },{
+        "id":"B5a",
+        "name":"Longest Distance Walked",
+        "situation":"Mrs.L. is unable to bear her full weight on her left leg. As she walks 60 feet down the hall w/her crutches, her husband supports her trunk. He provides <50% of the effort.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"The helper, her husband,  provides trunk support as the patient walks >50 feet, but not >100 feet."
+    },{
+        "id":"B5a",
+        "name":"Longest Distance Walked",
+        "situation":"A helper puts Mrs. W's walker w/in reach.  Mrs.W. needs verbal cues to remind her of the safest way to stand up from a sitting position.  Once standing, Mrs.W. walks 120 feet down the hall w/o any assistance from a helper.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"Mrs.W. walks more than 100 feet once the helper places the walker w/in reach.  Assistance w/getting from a sitting to a standing position is not considered in this item & is coded separately under the item Sit to Stand.  This item only considers walking after the patient is standing."
+    },{
+        "id":"B5a",
+        "name":"Longest Distance Walked",
+        "situation":"Mr.B. walks around his room, a distance of about 12 feet.  A helper stands close by as he walks, because he has a history of falls.",
+        "score":"4. Supervision/Touching Assistance",
+        "rationale":"The helper stands by (i.e., supervises) Mr.B. as he walks in his room >10 feet, but < 50 feet."
+    },{
+        "id":"B5a",
+        "name":"Longest Distance Walked",
+        "situation":"Mr.C. is 1 week status post L. hip fx. & has non-weight-bearing orders for his L. leg.  He is brought to the therapy gym for gait training in the parallel bars.  He is able to use the parallel bars to pull up & requires only minimal assistance to stand.  Once standing, he is able to hold the L. leg off the floor.  He is unable to *hop* in the parallel bars due to his upper body weakness & coordination w/understanding non-weight bearing.",
+        "score":"1. Dependent",
+        "rationale":"Mr.C is unable to maintain non-weight-bearing status & therefore is unable to walk at all."
+    },{
+        "id":"B5b",
+        "name":"Longest Distance Wheeled",
+        "situation":"Mrs. M. is unable to bear any weight on her right leg. After the helper provides steadying assistance to transfer from the bed into the wheelchair, Mrs. M. propels herself about 120 feet down the hall using her left leg.",
+        "score":"6. Independent",
+        "rationale":"The patient wheels herself more than 100 feet, but less than 150 feet. The assistance provided by the helper w/the transfer is not considered when scoring longest distance wheeled. There is a separate item for scoring bed to chair transfers."
+    },{
+        "id":"B5b",
+        "name":"Longest Distance Wheeled",
+        "situation":"Mrs. P. is 3 weeks status post right CVA.  She is able to provide less than half the effort to transfer into the wheelchair. Once she is sitting upright in the chair, the helper removes the right legrest & instructs Mrs. P in how to use her right arm & right leg to propel the wheelchair.  Mrs. P. is able to move her right leg forward & initiate pulling her wheelchair forward, but is unable to move the chair w/o assistance from the helper.",
+        "score":"1. Dependent",
+        "rationale":"The patient is able to provide some effort to wheel her chair but is unable to wheel herself more than 10 feet. Therefore the patient's score is Dependent. The assistance provided by the helper w/the transfer is not considered when scoring longest distance wheeled. There is a separate item for scoring bed to chair transfers."
+    },{
+        "id":"B5b",
+        "name":"Longest Distance Wheeled",
+        "situation":"Mr. D. is 2 years post left CVA that left him w/a mostly flaccid left arm, & some use of his left leg. He is able to transfer himself into his wheelchair. He can wheel himself > 400 feet to the dining room, but requires verbal cues for avoiding obstacles due to his macular degeneration.  He occasionally allows his right arm to dangle against the wheel, & must be reminded to position it inside the wheelchair in his lap.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"The patient is able to wheel his chair but does require supervision for safety--both to avoid obstacles due to a visual & to occasionally remind him to keep his right arm inside the wheelchair to avoid injury."
+    },{
+        "id":"C3",
+        "name":"Roll Left & Right",
+        "situation":"Mr. W. is receiving rehab after a left hemisphere stroke w/subsequent right sided weakness.  He presents lying in bed supine when the therapist meets him to evaluate.  The therapist instructs him to reach for the right bedrail w/his left arm & pull himself over.  The patient does not respond but once the therapist places his left hand on the bedrail & gives him visual cues, the patient responds & begins to pull himself over.  He requires assistance from the therapist to reach full sidelying.  The patient does not let go of the bedrail, however, & requires assistance from the therapist to get back on his back.  His right arm is flaccid & therefore the patient is unable to grasp the bedrail to roll to his left.",
+        "score":"2. Substantial /Maximal Assistance",
+        "rationale":"A helper is needed to complete the task of rolling to each side & back to supine.  The patient does initiate some part of rolling to his right side, however, & therefore is not coded as '1: Dependent'"
+    },{
+        "id":"C3",
+        "name":"Roll Left & Right",
+        "situation":"Upon re-evaluation, Mr. W. (patient in Example 1) is able to reach for the right bedrail w/his left arm & pull himself over to sidelying w/o assistance from the therapist.  w/cues, he is able to roll back to supine position.  w/assistance, he can pull his right leg to a hip/knee flexion position & initiate pushing himself over to his left side, but needs cues to cradle his right arm & is not able to reach full sidelying w/o assistance from the helper.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"The patient is able to roll to one side w/o assistance from the helper, but requires verbal cueing to return to his back & physical assistance to roll to the other side. Overall, the helper is providing less than half the effort now & therefore the patient is coded as '3: Partial/Moderate Assistance'"
+    },{
+        "id":"C3",
+        "name":"Roll Left & Right",
+        "situation":"At discharge, Mr. W. (patient in Example 1 & 2) is able to reach for the right bedrail w/his left arm & pull himself over to sidelying w/o assistance from the therapist.  When prompted, he is able to roll back to supine position.  w/prompting, he can pull his right leg to a hip/knee flexion position, but requires assistance from the helper to stabilize the leg while he pushes himself over to his left side. He still needs cues to cradle his right arm due to residual neglect.   He is able to return to his back w/o assistance from the helper.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"The patient is able to roll to one side w/o assistance from the helper, & requires verbal cues & steadying from the helper to roll to the other side. He is able to return to his back w/o assistance from the helper."
+    },{
+        "id":"C4",
+        "name":"Sit to Lying",
+        "situation":"Mrs. H. requires assistance from a helper to transfer from sitting at the edge of the bed to lying in bed due to paralysis on her right side. Mrs. H can use the bedrail to lower herself down to the bed, but cannot lift her legs completely up onto the bed.  The helper lifts Mrs. H's legs & assists her in positioning them. Mrs. H then uses her arms & upper body to position her trunk.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"A helper is needed to transfer from a seated to a lying position, but Mrs. H. does a majority of the task."
+    },{
+        "id":"C4",
+        "name":"Sit to Lying",
+        "situation":"Mrs. E. is recovering from a thoracic compression fracture.  Once sitting at the edge of the bed, she has a tendency to lean back on the bed & raise her legs up which causes her significant pain.  She requires verbal cues to remind her to lower herself down to her side first before rolling over to her back.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"A helper is needed to provide verbal cues for safe technique since Mrs. E is not consistent in her performance."
+    },{
+        "id":"C4",
+        "name":"Sit to Lying",
+        "situation":"Mr. A. is wearing a shoulder immobilizer after fracturing his humerus.  He is able to walk around his room & transfer to the side of the bed.  In order to lie down safely & w/the least amount of pain, he asks the helper to raise the upper bedrails & the head of the bed for him so he can use it to assist him lying down.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"A helper is needed to help prepare the bed for Mr. A by putting the rails in the optimal position."
+    },{
+        "id":"C5",
+        "name":"Pick Up Object",
+        "situation":"Mr. T bends over from a standing position to reach for his shaver. The patient care technician places both hands lightly on his waist to steady him as she observed his unsteadiness in performing the task.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"The helper provides steadying assistance to Mr. T to prevent him from falling."
+    },{
+        "id":"C5",
+        "name":"Pick Up Object",
+        "situation":"Mrs. W keeps her reacher beside her at all times.  Using her reacher, she can pick up her slippers off the floor to put them on.",
+        "score":"6. Independent",
+        "rationale":"Mrs. W is able to pick up objects from a standing position using her reacher. The use of adaptive equipment does not decrease her score."
+    },{
+        "id":"C5",
+        "name":"Pick Up Object",
+        "situation":"Mr. G stoops down from a standing position to pick up the newspaper from the floor.  He requires physical support from the helper to stoop down w/o falling over.  Mr. G can pick up the newspaper, but is unable to get fully upright again w/o physical support from the helper.",
+        "score":"2. Substantial /Maximal Assistance",
+        "rationale":"Mr. G is able to pick up the object off the floor, but cannot stoop down or stand back up w/o physical assist from the helper.  The helper is providing more than half the effort."
+    },{
+        "id":"C7a",
+        "name":"1 Step (Curb)",
+        "situation":"Mrs. P. has orders for touch-down weight-bearing on her right leg.  She struggles w/keeping her weight bearing precautions on even surfaces, but is able to walk 5 feet w/substantial/maximal assistance & a rolling walker.  She approaches a single step, but is visibly concerned about attempting to go up or down one step.",
+        "score":"1. Dependent",
+        "rationale":"The therapist can infer from the patient's level of performance w/walking on even surfaces that she is dependent for a single step due to her difficulty in maintaining her weight-bearing orders on even surfaces.  This would be the most appropriate score, rather than a 'S: Not Attempted due to Safety Concerns', 'N: Not Applicable', or 'P: Patient Refused'."
+    },{
+        "id":"C7a",
+        "name":"1 Step (Curb)",
+        "situation":"Mr. G is a bilateral amputee who has not used his prosthesis in more than five years.  Due to his pulmonary status, he is satisfied w/functioning at a wheelchair level.",
+        "score":"N. Not Applicable",
+        "rationale":"Mr. G is not a candidate for prosthetic training due to his pulmonary status, & is satisfied w/functioning at a wheelchair level."
+    },{
+        "id":"C7a",
+        "name":"1 Step (Curb)",
+        "situation":"Mrs. K is able to place her walker up on the curb & put one foot up.  She requires assistance to lift her body weight up in order to get her 2nd foot onto the curb.  She is able to place her walker & step down w/both feet w/o assistance from the helper.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"Mrs. K is able to partially complete going up the step/curb, but requires < 50% assistance to complete that portion of the task.  Mrs. K is able to step down w/o assistance."
+    },{
+        "id":"C7b",
+        "name":"Walk 50 feet with 2 Turns",
+        "situation":"Mrs. F. is able to stand w/maximal assistance from the helper.  Once standing on her walker, she is able to walk 10 feet w/< 50% assistance from the helper.",
+        "score":"1. Dependent",
+        "rationale":"The patient is able to ambulate, but is unable to walk 50 feet & make two turns"
+    },{
+        "id":"C7b",
+        "name":"Walk 50 feet with 2 Turns",
+        "situation":"Mrs. K. ambulates w/a rolling walker.  She is able to walk 25 feet, but requires maximal assistance from the helper to advance the walker & manage her balance during the first turn.  She ambulates 25 feet back to her chair, but requires maximal assistance to safely sit down.",
+        "score":"2. Substantial /Maximal Assistance",
+        "rationale":"The patient requires > 50% of the effort throughout the task to complete it safely, but is able to manage the 50 feet & two turns."
+    },{
+        "id":"C7b",
+        "name":"Walk 50 feet with 2 Turns",
+        "situation":"Mr. W. ambulates 25 feet, turns & walks 25 feet back to his chair, & sits down.  The patient is unsteady on the turns & the helper provides touching to steady him due to some loss of balance when weight-shifting in the turns.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"The patient requires > 50% of the effort throughout the task to complete it safely, but is able to manage the 50 feet & two turns."
+    },{
+        "id":"C7c",
+        "name":"12 Steps",
+        "situation":"Mrs. A. has orders for partial-weight-bearing on her right leg.  She has 12 steps to get to the 2nd level of her home where her bedroom is. She is able to go up the 12 steps w/two handrails w/partial assistance from the helper.  At the top of the stairs, she has trouble maintaining her partial weight- bearing status while turning around & requires maximal assistance from the helper to keep her balance.  When coming down the stairs, she is fatigued & is unable to get down w/o > 50% assistance from the helper.",
+        "score":"2. Substantial /Maximal Assistance",
+        "rationale":"The patient is able to get up the steps w/< 50% assistance from the helper but is unable to  turn around & get back down the steps w/o > 50% assistance from the helper."
+    },{
+        "id":"C7c",
+        "name":"12 Steps",
+        "situation":"Mr.O. is recovering from a CVA w/mild left hemiparesis.  He wears an AFO on this left foot.  He is unable to get the AFO on w/o assistance.  Once the AFO is on, patient can walk up & down 12 steps using a handrail on the right side on the way up & the way down.  He stops after 4 steps & rests, & then continues up the steps.  He rests for 2 minutes at the top the steps before coming down",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"The patient is able to go up & down the steps w/o physical assistance from Helper once his AFO is on properly.  How long it takes him to go up & down, or how many rest breaks he takes is not a consideration in scoring this item."
+    },{
+        "id":"C7c",
+        "name":"12 Steps",
+        "situation":"Mr.K. is recovering from a fall where he fractured his right proximal humerus & his right patella.  He is non-weight-bearing on his right arm & weight-bearing as tolerated on his right leg w/a knee brace to keep his knee in full extension.  He is able to ambulate w/supervision/touching assistance w/a quad cane for 125 feet.  He is unable to step up on one step/curb w/o Helper providing all the effort to get him up on the step.",
+        "score":"1. Dependent",
+        "rationale":"The patient is unable to go up/down one step/curb w/o total assistance of Helper.  Therefore it can be inferred that he would be dependent in the tasks of going up/down 12 steps (& 4 steps)."
+    },{
+        "id":"C7d",
+        "name":"4 Steps",
+        "situation":"Mrs. B. has orders for 50% weight-bearing on her right leg.  She has five steps to get into her home. She wears 2 liters of oxygen at all times & has orders to keep her oxygen saturation above 90%.  Using two handrails, she is able to go up two steps w/substantial assistance from the helper.  After two steps, her oxygen saturation drops to 86%.  The helper waits 30 sec & it does not come back up.  Mrs. B begins to get anxious that she is not going to be able to get down.  The helper abandons trying to go up any more steps & assists Mrs. B down the steps w/substantial/maximum assistance.",
+        "score":"1. Dependent",
+        "rationale":"The therapist decides not to pursue completing the task for medical reasons. The patient's oxygen saturation was less than acceptable & she was becoming more anxious which would only increase her work of breathing.  She was unable to go up/down four steps, & while part of this was related to her medical condition, '1' is the most appropriate score."
+    },{
+        "id":"C7d",
+        "name":"4 Steps",
+        "situation":"Mrs. Z. has late-stage dementia, & is being assessed for an appropriate functional maintenance program.  She ambulates w/a shuffle-gait & requires only supervision-touching assistance.  She can step up & down 1 step/curb w/partial/moderate assistance.  When she is presented w/the task of going up & down 4 steps, she halts & refuses to step up.  The therapist gives her verbal & visual prompts & places her hands on the handrail to induce memory.  The patient becomes more agitated & begins to raise her voice.  The task is abandoned.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"The patient became visibly agitated when the task of walking up/down 4 steps was presented to her.  The therapist decided for safety reasons it would not be appropriate to attempt to try again.  The therapist is unable to infer from other activities what her ability would be, however, & therefore 'S' is an appropriate score."
+    },{
+        "id":"C7d",
+        "name":"4 Steps",
+        "situation":"Mr. A. has four steps to get into his home.  He only has one handrail, so the therapist assesses him w/one handrail.  He is able to go up the stairs & turn around & come down.  The therapist provides some verbal instruction about turning around at the top in order to minimize his loss of balance & reduce the change of getting tripped up",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"The patient does not require any physical assistance, but there are concerns about his safety & sequencing as he turns to come down the step."
+    },{
+        "id":"C7e",
+        "name":"Walking 10 feet on Uneven Surfaces",
+        "situation":"Mr. K. has a driveway at home w/an uneven surface. The physical therapist has been working on ambulation w/him outside of the facility to prepare him for this task. Mr. K. had a hip replacement & is now using a small based quad cane w/which to walk indoors. Upon walking outside on the uneven surface he requires steadying assistance as he tends to be unsteady while using his device on this surface.",
+        "score":"4. Supervision /Touching Assistance",
+        "rationale":"Patient requires steadying (touching) assistance in order to perform the activity safely."
+    },{
+        "id":"C7e",
+        "name":"Walking 10 feet on Uneven Surfaces",
+        "situation":"Mr. R. has a ramp (rather than steps) at home to get into his front door. He has been working on increasing his lower extremity power in physical therapy, but he still requires some physical assistance from the therapist to get up the 10 foot ramp due to its 5% grade.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"Patient requires physical assistance from the therapist, but is able to provide greater than half the effort to walk on uneven surfaces."
+    },{
+        "id":"C7e",
+        "name":"Walking 10 feet on Uneven Surfaces",
+        "situation":"Mr. B. ambulates up to 25 feet on even surfaces w/partial /moderate assistance from a helper.   His front walkway to the car is gravel.  Mr. B can manage 5 feet on the gravel, but then decompensates such that he must sit down.",
+        "score":"1. Dependent",
+        "rationale":"The patient is able to ambulate on even surfaces greater than 10 feet, but is unable to walk 10 feet on uneven surfaces. A score of 'A', Task Attempted but Not Completed would not be the most appropriate response."
+    },{
+        "id":"C7f",
+        "name":"Car Transfer",
+        "situation":"Mr. D. has a doctor's appointment to which his wife is going to transport him.  He ambulates to the car w/supervision/touching assistance using his walker.  He turns around w/his back to the car seat, but is unable to rotate his trunk & head around w/o losing his balance.  The helper assists Mr. D to bend & lower his body into the car seat.  Once he is seated, Mr. D is able to pick his legs up & put them in the car.  When he returns from his appointment, he can swing his legs out of the car, but is unable to stand w/o physical assistance from a helper.  Once standing, he is able to ambulate into the house",
+        "score":"2. Substantial /Maximal Assistance",
+        "rationale":"The patient is unable to stoop, bend or turn to get in the car w/o physical assistance, but once the patient is sitting in the car seat, he is able to swing his legs into & out of the car.  He is unable to stand up & the helper provides >50% of the effort."
+    },{
+        "id":"C7f",
+        "name":"Car Transfer",
+        "situation":"Mr. Y. can lower himself into the passenger seat of his son's car & swing his legs into the car.  When getting out of the car, he swings his legs out on his own.  He needs some physical assistance from the helper to initiate standing up due to the height of the car set.",
+        "score":"3. Partial /Moderate Assistance",
+        "rationale":"The patient is able to stoop, bend or turn to get in the car w/o physical assistance, & once the patient is sitting in the car seat, he is able to swing his legs into & out of the car.  He is unable to stand up on his own & the helper provides < 50% of the effort."
+    },{
+        "id":"C7f",
+         "name":"Car Transfer",
+        "situation":"Mr. G. has diminished vision.  He is able to walk to the car using his cane.  The helper lets him know when he is close enough to the car to step in.  Before getting out of the car, the helper lets him know what the ground surface is like & hands him his cane.",
+        "score":"5. Setup or Clean-Up Assistance",
+        "rationale":"The patient is physically able to get into & out of the car.  The helper verbally assists the patient w/preparatory activities due to his poor vision"
+    }
+]

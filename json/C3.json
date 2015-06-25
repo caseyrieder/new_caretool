@@ -1,0 +1,39 @@
+{
+    "name":"Roll Left & Right",
+    "set":"Mobility",
+    "id":"C3",
+    "page":"16",
+    "description":"The ability to roll from lying on back to left & right side, & roll back to back",
+    "exceptions":[
+        "Sitting up or lying down"
+    ],
+    "tips":[
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of rolling from lying on the back to the left & right side, & returning to lying on the back. Patient may cross arms over midline or move legs in preparation for rolling, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient participates in safely rolling from lying on the back to the left & right side, & returning to lying on the back, but helper provides >50% of the effort",
+        "Patient is able to initiate rolling by reaching for bedrail or bending one knee to use for pushing over, but is unable to initiate any physical effort at rolling over or returning to back",
+        "Patient is able to partially complete rolling to right or left & almost complete returning to lying on back, but helper still provides >50% of the effort",
+        "Patient is able to roll to one side, but requires complete assistance from the helper to roll to other side & return to lying on the back"
+    ],
+    "partial":[
+        "Patient participates in safely rolling from lying on the back to the left & right side, & returning to lying on the back, & helper provides <50% of the effort",
+        "Patient is able to partially complete rolling by reaching for bedrail, & initiates effort to roll over, but is unable to exert enough physical effort to complete the roll",
+        "Patient is able to roll to one side, return to back & initiate rolling to the other side, but requires <50% effort provided by helper to complete the task, but patient can return to lying on back"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely rolling from lying on back to the left & right side & returning to lying on the back",
+        "There may be concerns about safety w/completing task due to mobility restrictions &/or orthopedic restrictions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, positioning in preparation for roll or after rolling, and/or after fatigue."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as placing hands on bedrail or positioning leg in hooklying to push for rolling to right or left side, adjusting bedrails or grab bars, or removing bedcovers or in application of a orthosis /prosthesis",
+        "Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following returning to back."
+    ],
+    "independent":[
+        "Patient safely rolls from lying on his/her back to the right & left side & returning to lying on the back w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis, electric bed controls, bedrails or grab bars."
+    ]
+}

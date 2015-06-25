@@ -1,0 +1,38 @@
+{
+    "name":"Sit to Lying",
+    "set":"Mobility",
+    "id":"C4",
+    "page":"15",
+    "description":"The ability to move from sitting on side of bed to lying flat on the bed",
+    "exceptions":[
+        "Not about moving from lying down to sitting up -- that is covered in another item"
+    ],
+    "tips":[
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely moving from sitting on the side of the bed to lying flat on the bed. Patient may cross arms over chest or cross legs in preparation for moving from sit to supine, but does not participate in the actual task being measured."],
+    "substantial":[
+        "Patient participates in safely moving from sitting on side of bed to lying flat on the bed, but helper provides >50% of the effort",
+        "Patient is able to initiate the movement by reaching for bedrail, lowering self to elbow or partially lifting legs toward the bed, but is unable to initiate a significant physical effort at moving to a lying position. Patient requires >50% assistance from helper to get legs on bed & in a fully flat position",
+        "Patient is unable to initiate positioning self for getting to a lying position, but once movement is started, the patient is able to lift one leg partially/completely onto the bed.",
+        "Patient is unable to contribute to moving from a sitting position to lying on side or lift legs on bed, & helper provides >50% of the effort but once legs are up on the bed, the patient can roll to their back."
+    ],
+    "partial":[
+        "Patient participates in safely moving from sitting on side of bed to lying flat on the bed, & helper provides <50% of the effort",
+        "Patient is able to reach for bedrail or lower self to elbow & lift legs toward the bed, but cannot achieve enough physical effort to complete moving to a lying position. Patient requires <50% assistance from helper to get legs on bed.",
+        "Patient needs assistance to initiate sidelying, but once there, the patient is able to lift legs onto the bed.",
+        "Patient is able to initiate moving from a sitting position to lying on side & lift legs on bed, but once there, helper provides <50% of the effort to assist patient to roll to their back."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely moving from sitting on side of bed to lying flat on the bed",
+        "There may be concerns about safety w/completing task w/o falling over or to follow orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, lowering self to sidelying, getting legs completely on the bed and/or rolling onto back."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or pillows, removing bedcovers or in application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following lying down."
+    ],
+    "independent":[
+        "Patient safely moves from sitting on side of bed to lying flat on the bed w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis, bedrails or grab bars."
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name":"Lower Body Dressing",
+    "set":"Self-Care",
+    "id":"A6",
+    "page":"10",
+    "description":"The ability to dress & undress below the waist, including fasteners. Does not include footwear.",
+    "exceptions":[
+		"Not about putting on footwear",
+    	"Not about putting on & removing clothes patient usually does not wear (eg, does patient usually wear a belt?)"    	
+    ],
+    "tips":[
+		"Patient can be sitting or standing",
+		"Ask patient to put on pants, fasten as appropriate (button, zip), & then remove them",
+    	"Consider patient's usual performance, not the lowest"        
+    ],
+    "dependent":[
+    	"The patient may lean forwards, backwards, may be able to use bedside rails, may be able to raise legs to thread a pant leg/skirt, but helper does all the effort to put on/remove the LB garment & patient contributes no effort to the task."
+    ],
+    "substantial":[
+		"Patient participates in putting on/removing LB clothing, but helper provides >50% the effort",
+    	"Patient is able to bring garment together once it is put on, but is unable to fasten, snap, belt or button it",
+    	"Patient is able to get one leg in/out of underwear & pant sleeve/skirt but not both legs",
+    	"Patient is able to start the task of putting on or taking off underwear & pants/skirt, but is unable to complete the task of threading/removing legs through underwear & pant sleeves/skirt"
+        ],
+	"partial":[
+		"Patient participates in putting on/removing LB clothing, but helper provides <50% the effort",
+    	"Patient is able to put on garments but is unable to fasten, snap, belt or button it",
+    	"Patient is unable to unbutton/unfasten/unsnap/unbelt garments, but is able to remove them",
+    	"Patient can pull up underwear & pants/skirt or pull down, but is unable to thread/remove both legs through underwear & pant sleeves/skirt"    
+	],
+	"supervision":[
+		"Prompting & cueing for sequencing to fully accomplish LB dressing are required",
+	    "There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+	    "Touching/Steadying only may be required while putting on/removing underwear & pants or skirt or in fastening buttons, snaps, belt or Velcro."
+	],
+	"setup":[
+	"Helper only assists prior to or following LB dressing.",
+    "Patient needs helper for preparation such as handing patient garments or handing patient required equipment such as a zipper pull, buttonholer or in application of orthosis/prosthesis. Patient may need helper to fold clothing & put it away after removal."
+    ],
+	"independent":[
+		"Patient puts on the pants/skirt, & can button, snap, Velcro or fasten it, & can unbutton/unfasten/unsnap the skirt or pants, & take it off w/o helper assistance. Patient can use required equipment such as zipper pull, buttonholer."		
+	]    
+}

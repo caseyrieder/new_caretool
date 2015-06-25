@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Entry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+
+<div data-role="page" id="entry" data-add-back-btn="true">
+
+	<div data-role="header" data-theme="b">
+		<h1></h1>
+	</div>
+	
+	<div data-role="content" id="entry-content">
+        <div id="entry-table">
+        </div>
+
+        <div>
+            <ul id="entry-list" data-role="listview" data-inset="true"></ul>
+        </div>
+    </div>
+
+    
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+		<h4>Lexicon</h4>
+	</div>
+		
+</div>
+
+<script>
+$("#entry").bind("pagebeforeshow", function(){
+    var thisId = window.location.href.split("=")[1];
+    alert(thisId);
+	$.getJSON("json/history.json", function(res,code) {
+        var hdr = "";
+        var gridclass = "ui-grid-d";
+        var divbar = "<div class='ui-bar ui-bar-a' style='height:60px'><span style='font-size=0.6em'>";
+        var cola = "<div class='ui-block-a'>"+divbar;
+        var colb = "<div class='ui-block-b'>"+divbar;
+        var colc = "<div class='ui-block-c'>"+divbar;
+        var cold = "<div class='ui-block-d'>"+divbar;
+        var cole = "<div class='ui-block-e'>"+divbar;
+        var divend = "</div></div>";
+        var testlist = "";
+        var testgrid = [];
+        for (var i in res) {
+            if (thisId == res[i].sessionid) {
+                hdr=res[i].patientname+": "+res[i].sessiondate;
+                // testgrid+=cola+"Eating</span><br>"+res[i].exA1+divend;
+                // testgrid+=colb+"Oral Hygiene</span><br>"+res[i].exA3+divend;
+                // testgrid+=colc+"Toilet Hygiene</span><br>"+res[i].exA4+divend;
+                // testgrid+=cold+"Upper Body Dressing</span><br>"+res[i].exA5+divend;
+                // testgrid+=cole+"Lower Body Dressing</span><br>"+res[i].exA6+divend;
+                // testgrid+=cola+"Wash Upper Body</span><br>"+res[i].exC1+divend;
+                // testgrid+=colb+"Shower/Bathe Self</span><br>"+res[i].exC2+divend;
+                // testgrid+=colc+"Putting On/Taking Off Footwear</span><br>"+res[i].exC6+divend;
+                // testgrid+=cold+"Lying to Sitting on Side of Bed</span><br>"+res[i].exB1+divend;
+                // testgrid+=cole+"Sit to Stand</span><br>"+res[i].exB2+divend;
+                // testgrid+=cola+"Chair/Bed-to-Chair Transfer</span><br>"+res[i].exB3+divend;
+                // testgrid+=colb+"Toilet Transfer</span><br>"+res[i].exB4+divend;
+                // testgrid+=colc+"Method of Ambulation (Walking, Wheelchair, Both</span><br>"+res[i].exB5+divend;
+                // testgrid+=cold+"Longest Distance Walked</span><br>"+res[i].exB5a+divend;
+                // testgrid+=cole+"Longest Distance Wheeled</span><br>"+res[i].exB5b+divend;
+                // testgrid+=cola+"Roll Left & Right</span><br>"+res[i].exC3+divend;
+                // testgrid+=colb+"Sit to Lying</span><br>"+res[i].exC4+divend;
+                // testgrid+=colc+"Pick Up Object</span><br>"+res[i].exC5+divend;
+                // testgrid+=cold+"Primarily WC</span><br>"+res[i].exC7+divend;
+                // testgrid+=cole+"1 Step (Curb)</span><br>"+res[i].exC7a+divend;
+                // testgrid+=cola+"Walk 50 feet with 2 Turns</span><br>"+res[i].exC7b+divend;
+                // testgrid+=colb+"12 Steps</span><br>"+res[i].exC7c+divend;
+                // testgrid+=colc+"4 Steps</span><br>"+res[i].exC7d+divend;
+                // testgrid+=cold+"Walking 10 feet on Uneven Surfaces</span><br>"+res[i].exC7e+divend;
+                // testgrid+=cole+"Car Transfer</span><br>"+res[i].exC7f+divend;
+                testgrid = res[i].exercises;
+                alert(testgrid);
+                for (var x in testgrid)
+                    testlist+="<li><em>"+testgrid[x].id+"</em>: <strong>"+testgrid[x].score+"</strong></li>";
+                // testlist+="<li>A1: "+res[i].exA1+"</li>";
+                // testlist+="<li>A3: "+res[i].exA3+"</li>";
+                // testlist+="<li>A4: "+res[i].exA4+"</li>";
+                // testlist+="<li>A5: "+res[i].exA5+"</li>";
+                // testlist+="<li>A6: "+res[i].exA6+"</li>";
+                // testlist+="<li>C1: "+res[i].exC1+"</li>";
+                // testgrid+=res[i].length;
+                // for (var x = 5; x < res[i].length; x++){
+                //     testgrid+="<li>"+x+"</li>";
+                // };
+                // tbl+=cola+res[i].exA1
+            }
+        	// if (thisId == res[o].sessionid) {
+        	// 	hdr = "john";
+         //        for (var p in res[o].length) {
+		       //      testgrid+="<li>"+res[o].p+"</li>";        			
+        	// 	}
+	        // } else {
+	        // 	continue;
+	        // }
+        };
+        $("h1").text(hdr);
+        // $("#printId").text(testgrid);
+        $("#entry-list").html(testlist).listview("refresh");
+        $("#entry-table").addClass(gridclass);
+        // $("#entry-table").html(testgrid);
+    });	
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "name":"Primarily WC",
+    "set":"Mobility",
+    "id":"C7",
+    "page":"-na-",
+    "description":"Does this patient primarily use a wheelchair for mobility?",
+    "dependent":[
+        "0. No (Wheelchair is not primary form of mobility)",
+        "If N0, code C7a-C7f"
+    ],
+    "substantial":[
+        "1. Yes (Wheelcahir is the primary form of mobility)",
+        "If Yes, code C7f ONLY"
+    ]
+}

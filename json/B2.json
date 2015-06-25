@@ -1,0 +1,37 @@
+{
+    "name":"Sit to Stand",
+    "set":"Mobility",
+    "id":"B2",
+    "page":"17",
+    "description":"The ability to safely come to a standing position from sitting in a chair or on the side of the bed.",
+    "exceptions":[
+        "Not about sitting back down"
+    ],
+    "tips":[
+        "The patient may use assistive devices",
+        "Consider preparatory steps, such as whether assistance is needed w/scooting to edge of bed/chair, weight-shifting forward, etc."
+    ],
+    "dependent":[
+        "Patient may cross arms over chest or place hands on an assistive device or therapist in preparation for standing, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient is able to complete preparatory steps to stand by securing chair, placing assistive device in appropriate place, scooting to edge of chair, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, but provides <50% of the physical effort to stand.",
+        "Patient is unable to complete preparatory steps to stand, but once feet are on the floor, patient is able to generate some power to lean forward & stand.",
+        "Patient is able to complete <50% of the preparatory steps to stand, & helper provides >50% of the effort to assist patient to a standing position."
+    ],
+    "partial":[
+        "Patient is able to complete preparatory steps to stand by securing chair, placing assistive device in appropriate place, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, & helper provides <50% of the physical effort to stand.",
+        "Patient is unable to complete preparatory steps to stand, but once feet are on the floor, patient is able to lean forward & stand w/<50% physical helper assistance.",
+        "Patient is able to complete >50% of the preparatory steps to stand, helper provides <50% of the effort to assist patient to a standing position."
+    ],
+    "supervision":[
+        "There may be concerns about safety w/completing task before chair is locked, lifting footrests, or w/o falling over which require verbal cues from helper for technique.",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, initial standing balance, locking brakes, &/or using assistive device appropriately once standing."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or armrests, locking brakes, lifting footrests, or placing assistive device or transfer pole w/in reach, or in application of a orthosis/prosthesis. Patient may need helper to remove orthosis/prosthesis or transfer pole following activity or adjust assistive device position."
+    ],
+    "independent":[
+        "Patient completes appropriate safety steps which may include locking brakes, moving footrests, positioning assistive devices, &/or using other required equipment such as orthosis/prosthesis or armrests/transfer poles."
+    ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Patient</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="customstyles.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="add-patient-page" data-add-back-btn="true" class="page-backdrop">
+
+	<div data-role="header" data-theme="b">
+		<h1>New Patient</h1>
+	</div>
+	
+	<div data-role="content" id="add-patient-content">
+		<form id="add-patient-form">
+            <div class="ui-field-contain">        
+                <label for="patient_name">Name:</label>        
+                <input type="text" id="patient_name" name="patient_name" value=""/>        
+            </div>
+            <div class="ui-field-contain">     
+                <label for="patient_age">Age:</label>        
+                <input type="number" id="patient_age" name="patient_age" value=""/>        
+            </div>	
+            <div class="ui-field-contain">  
+                <fieldset data-role="controlgroup" data-type="horizontal" style="align:center" data-theme="c">
+                    <input type="radio" name="patient_gender" id="Male" value="M">
+                        <label for="Male">Male</label>
+                    <input type="radio" name="patient_gender" id="Female" value="F">
+                        <label for="Female">Female</label>
+                </fieldset>
+            </div>	
+        <input type="submit" id="add-patient-submit" value="Add Patient" data-theme="c">
+        </form>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+		<h4>Lexicon</h4>
+	</div>
+		
+</div>
+
+<script>
+$(document).on("pagecreate","#add-patient-page", function() {
+    $(document).on("click", "#add-patient-submit", function(event) {
+        $(":mobile-pagecontainer").pagecontainer("change","index.html");
+        //code for 'successful' or 'failed' submission
+    });
+});
+    
+</script>
+
+</body>
+</html>

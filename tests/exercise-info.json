@@ -1,0 +1,942 @@
+[
+{
+    "num":1,
+    "id":"A1",
+    "name":"Eating",
+    "set":"Self-Care",
+    "description":"The ability to use suitable utensils to bring food to the mouth & swallow food once the meal is presented on a table/tray. Includes modified food consistency.",
+    "exceptions":[
+        "Not about the quality the swallowing function",
+        "Not about the consistency the food eaten",
+        "Not about whether or not patient uses adaptive utensils or equipment"
+    ],
+    "tips":[
+        "If patient receives tube feeding, the code is 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "Patient only chews & swallows food when helper scoops & brings it to mouth. Patient does not participate in the task of bringing food to the mouth at all."
+    ],
+    "substantial":[
+        "Patient can bring food to mouth but helper scoops all food onto utensil",
+        "Patient can scoop all food onto the utensil but helper brings food to mouth",
+        "Helper guides the limb & provides > 50% of the effort - assisting patient in scooping the food onto utensil & bringing it to patient's mouth"
+    ],
+    "partial":[
+        "Helper may need to guide the limb",
+        "Helper may provide <50% of the effort - assisting patient in scooping food onto utensil & bringing it to patient's mouth.",
+        "Patient can partially scoop food onto utensil & partially bring food to mouth, but is unable to complete task w/o physical help from helper"
+    ],
+    "supervision":[
+        "Cueing &/or coaxing &/or supervision throughout meal maybe required for safety concerns about swallowing, possible choking &/or eating in a hurry",
+        "Helper may need to verbally guide patient in completing the task &/or provide touching/steadying assistance to patient in scooping food onto utensil & bringing it to patient's mouth"
+    ],
+    "setup":[
+        "Helper only assists prior to or after eating.",
+        "Patient can scoop food, bring it to mouth, & eat, but needs assistance w/pouring, drinking, opening containers &/or cutting meat (e.g., aspects of set-up)",
+        "Patient needs assistance w/application of cuff, orthosis, prosthesis (& removing after meal)."
+    ],
+    "independent":[
+        "The patient is able to use spoon, fork, cup, glass, long straw, adapted devices. Patient is able to don/apply cuff/orthosis/prosthesis for eating. Patient is able to open containers, pour liquid, & cut meat.",
+        "No helper assistance is required."
+    ]
+},{
+    "num":2,
+    "id":"A3",
+    "name":"Oral Hygiene",
+    "set":"Self-Care",
+    "description":"The ability to use suitable items to clean teeth. Dentures: The ability to remove & replace dentures from & to mouth, & manage equipment for soaking & rinsing.",
+    "exceptions":[
+    	"Not about whether patient brushes teeth in sitting or standing position",
+    	"Not about the level of assistance needed to get to the bathroom"    	
+    ],
+    "tips":[
+		"Rating is the same whether patient uses an electric or a conventional toothbrush"
+    ],
+    "dependent":[
+    	"Patient is totally dependent on helper to brush teeth &/or remove/replace dentures from & to mouth. Patient is totally dependent on helper to clean dentures."
+    ],
+    "substantial":[
+    	"Patient can bring toothbrush to mouth but helper assists w/applying toothpaste & completing oral care w/toothbrush",
+    	"Patient can remove or replace dentures, & helper is required to manage equipment for soaking/rinsing",
+    	"Patient can manage some equipment for cleaning dentures, but is unable to safely/fully remove dentures or replace them for proper fit.",
+    	"Helper guides the limb & provides >50% the effort in assisting patient in cleaning teeth or removing/replacing dentures & managing equipment."
+    ],
+	"partial":[
+		"Patient can remove & replace dentures, but helper is required to assist patient w/managing equipment for soaking/rinsing",
+		"Patient can manage all the equipment for cleaning dentures, but is unable to safely/fully remove dentures or replace them for proper fit.",
+		"Helper guides the limb & provides <50% the effort in assisting patient in cleaning teeth or removing/replacing dentures & managing equipment."
+	],
+	"supervision":[
+		"There may be concerns about safety w/hot water or maintaining hygienic conditions for dentures requireing verbal cues from helper for technique.",
+		"Touching/steadying only may be required w/applying toothpaste or using toothbrush to fully complete oral care or managing equipment for soaking/rinsing or removing/replacing dentures"
+	],
+	"setup":[
+		"Helper only assists prior to or after oral hygiene",
+		"Patient can brush teeth once toothpaste is applied to toothbrush",
+		"Patient can replace & remove dentures independently, but needs helper to set up equipment for soaking"
+	],
+	"independent":[
+		"Patient can apply toothpaste & brush teeth independently. Patient cares for dentures independently & is able to remove/replace them w/o helper assistance."
+		
+	]    
+},{
+    "num":3,
+    "id":"A4",
+    "name":"Toilet Hygiene",
+    "set":"Self-Care",
+    "description":"The ability to maintain perineal hygiene, adjust clothes before & after using toilet, commode, bedpan, urinal. If managing ostomy, include wiping opening but not managing equipment.",
+    "exceptions":[
+    	"Not about how patient gets to the toilet/commode or gets on/off the toilet",
+    	"Not about the level of assistance needed to get to the bedpan/urinal positioned"    	
+    ],
+    "tips":[
+		"Review this item carefully, as it is different than definitions of toilet hygiene on other rating scales you may have used"    
+    ],
+    "dependent":[
+		"Patient is unable to adjust clothing before & after toileting & is unable to maintain perineal hygiene. If using an ostomy, patient is unable to clean the opening."
+    ],
+    "substantial":[
+    	"Patient participates in & provides some effort in clothing management but is dependent in perineal hygiene",
+    	"Patient participates in & provides some effort in perineal hygiene, but is dependent in clothing management",
+    	"Helper provides >50% of the effort overall in assisting patient in (1) clothing management &/or (2) perineal hygiene."    	
+    ],
+	"partial":[
+		"Patient able to manage clothing but helper must assist w/perineal hygiene",
+    	"Patient requires physical assist from helper for managing clothing before/after toileting but is able to demonstrate perineal hygiene",
+    	"Helper provides <50% of the effort overall in (1) clothing management &/or (2) perineal hygiene"
+    
+	],
+	"supervision":[
+		"Prompting & cueing to fully accomplish perineal hygiene may be required",
+    	"There may be concerns about safety which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required while adjusting clothing, belts, w/zipping/unzipping fly/skirt for safety."
+	],
+	"setup":[
+		"Patient needs helper for initial preparation such as handing patient the toilet tissue or placing the bedside commode for nighttime use, or emptying bedside commode/urinal"
+	],
+	"independent":[
+		"Patient adjusts clothing prior to using toilet, gathers toilet paper, wipes front or back fully, adjusts clothing after using toilet, & fastens clothing safely w/o helper assistance. Patient can use required equipment such as dressing stick, or grab bars."		
+	]
+},{
+    "num":4,
+    "id":"A5",
+    "name":"Upper Body Dressing",
+    "set":"Self-Care",
+    "description":"The ability to put on & remove shirt or pajama top. Includes buttoning if applicable.",
+    "exceptions":[
+    	"Not about putting on & removing clothes patient usually does not wear (eg, does patient usually wear a bra? A pullover?)"
+    ],
+    "tips":[
+		"Patient can be sitting or standing",
+		"Ask patient to put on a shirt or pajama top, fasten it, & then remove it",
+		"Consider patient's usual performance, not the lowest"    
+    ],
+    "dependent":[
+    	"The patient may lean forwards, backwards, may be able to use bedside rails, may be able to raise arms to thread sleeve, but helper does all the effort to put on/remove the UB garment & patient contributes no effort."
+    ],
+    "substantial":[
+    	"Patient participates in putting on/removing UB clothing, but helper provides >50% of the effort",
+    	"Patient is able to bring garment together once it is put on, but is unable to fasten, snap or button it.",
+    	"Patient is able to get one arm in/out of sleeve but not both arms",
+    	"Patient is able to place shirt w/o buttons over head, but is unable to thread either arm through the sleeves"
+    ],
+	"partial":[
+		"Patient participates in putting on/removing UB clothing, but helper provides <50% of the effort",
+	    "Patient is able to put on garment but is unable to fasten, snap or button it.",
+	    "Patient is unable to unbutton/unfasten/unsnap garment, but is able to remove it.",
+	    "Patient is able to place shirt w/o buttons over head, but is unable to thread both arms through sleeves"
+    	],
+	"supervision":[
+		"Prompting & cueing for sequencing to fully accomplish UB dressing are required",
+    	"There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required while putting on/removing shirt or top or in fastening buttons, snaps or Velcro."    
+	],
+	"setup":[
+		"Helper only assists prior to or following UB dressing",
+    	"Patient needs helper for initial preparation such as handing patient garment or handing patient required equipment such as a zipper pull or in application of an orthosis/prosthesis. Patient may need helper to fold clothing & put away after removal."
+    ],
+	"independent":[
+		"Patient puts on the shirt/top, & can button, snap or fasten it, & can unbutton/unfasten/unsnap the shirt or top, & take it off w/o helper assistance. Patient can use required equipment such as zipper pull, buttonholer."
+	]
+},{
+    "num":5,
+    "id":"A6",
+    "name":"Lower Body Dressing",
+    "set":"Self-Care",
+    "description":"The ability to dress & undress below the waist, including fasteners. Does not include footwear.",
+    "exceptions":[
+		"Not about putting on footwear",
+    	"Not about putting on & removing clothes patient usually does not wear (eg, does patient usually wear a belt?)"    	
+    ],
+    "tips":[
+		"Patient can be sitting or standing",
+		"Ask patient to put on pants, fasten as appropriate (button, zip), & then remove them",
+    	"Consider patient's usual performance, not the lowest"        
+    ],
+    "dependent":[
+    	"The patient may lean forwards, backwards, may be able to use bedside rails, may be able to raise legs to thread a pant leg/skirt, but helper does all the effort to put on/remove the LB garment & patient contributes no effort to the task."
+    ],
+    "substantial":[
+		"Patient participates in putting on/removing LB clothing, but helper provides >50% the effort",
+    	"Patient is able to bring garment together once it is put on, but is unable to fasten, snap, belt or button it",
+    	"Patient is able to get one leg in/out of underwear & pant sleeve/skirt but not both legs",
+    	"Patient is able to start the task of putting on or taking off underwear & pants/skirt, but is unable to complete the task of threading/removing legs through underwear & pant sleeves/skirt"
+        ],
+	"partial":[
+		"Patient participates in putting on/removing LB clothing, but helper provides <50% the effort",
+    	"Patient is able to put on garments but is unable to fasten, snap, belt or button it",
+    	"Patient is unable to unbutton/unfasten/unsnap/unbelt garments, but is able to remove them",
+    	"Patient can pull up underwear & pants/skirt or pull down, but is unable to thread/remove both legs through underwear & pant sleeves/skirt"    
+	],
+	"supervision":[
+		"Prompting & cueing for sequencing to fully accomplish LB dressing are required",
+	    "There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+	    "Touching/Steadying only may be required while putting on/removing underwear & pants or skirt or in fastening buttons, snaps, belt or Velcro."
+	],
+	"setup":[
+	"Helper only assists prior to or following LB dressing.",
+    "Patient needs helper for preparation such as handing patient garments or handing patient required equipment such as a zipper pull, buttonholer or in application of orthosis/prosthesis. Patient may need helper to fold clothing & put it away after removal."
+    ],
+	"independent":[
+		"Patient puts on the pants/skirt, & can button, snap, Velcro or fasten it, & can unbutton/unfasten/unsnap the skirt or pants, & take it off w/o helper assistance. Patient can use required equipment such as zipper pull, buttonholer."		
+	]
+},{
+    "num":6,
+    "id":"C1",
+    "name":"Wash Upper Body",
+    "set":"Self-Care",
+    "description":"The ability to wash, rinse, & dry the face, hands, chest, & arms while sitting in a chair or bed.",
+    "exceptions":[
+    	"Not about washing the back",
+    	"Not about scoring whether patient can get in a tub/shower"    
+    ],
+    "tips": [
+		"Patient is in a sitting position for scoring",
+    	"Consider the most usual performance, not the lowest",
+    	"If there are orders to not get these areas wet & rating cannot be inferred, the rating is NA"		    
+    ],
+    "dependent":[
+    	"Once patient is seated in a chair or at bedside, patient is dependent in all aspects of bathing face, hands, chest & arms.",
+    	"Patient may lean forwards, backwards, may be able to hold to armrests or bedrails, may be able to raise arms, but Helper does all the effort to wash, rinse & dry patient's face, hands, chest & arms. The patient contributes no effort to washing, rinsing or drying."
+    ],
+    "substantial":[
+    	"Once patient is seated in a chair or at bedside, patient participates in washing, rinsing &/or drying face, hands, arms & chest, but helper provides >50% the effort. Patient is able to participate in some aspects of all three, but helper provides >50% the effort",
+    	"Patient is able to use a washcloth to initiate some washing, but unable to reach all areas",
+    	"Patient is able to hold washcloth to initiate some rinsing, but unable to completely rinse all areas",
+    	"Patient is able to use towel to initiate or dry some parts of body, but is unable to reach all areas"
+    ],
+	"partial":[
+		"Patient is able to use washcloth to wash face, arms & chest, but is unable to thoroughly/completely wash all areas",
+    	"Patient is able to hold washcloth to rinse hands & arms, but is unable to thoroughly or completely rinse all areas",
+    	"Patient is able to use a towel to dry face, hands & arms, but is unable to thoroughly or completely dry all areas",
+    	"Patient is able to complete 2 of 3 (washing, rinsing, drying), but is unable to complete the 3 tasks"    
+	],
+	"supervision":[
+		"Once patient is seated in chair/at bedside, helper provides prompting & cueing for sequencing to fully accomplish washing, rinsing & drying face, hands, arms & chest",
+    	"There may be concerns about safety w/completing task &/or thoroughly washing all areas which require verbal cues from helper for technique",
+    	"Touching/Steadying only may be required for balance/safety when reaching for washcloth, faucet or towel to prevent falling, or to enable patient to thoroughly wash, rinse, & dry all areas."
+   	],
+	"setup":[
+		"Once patient is seated in chair or at bedside, patient needs helper for initial preparation such as handing patient a prepared washcloth, towel or other required equipment or in application of an orthosis/prosthesis.",
+    	"Patient may need helper to draw water or check temperature prior to starting bath."
+    ],
+	"independent":[
+		"Once patient is seated in a chair or at bedside, patient washes, rinses & dries their face, hands, arm & chest w/o helper assistance. Patient can use required equipment, such as a bathmatt."		
+	]
+},{
+    "num":7,
+    "id":"C2",
+    "name":"Shower/Bathe Self",
+    "set":"Self-Care",
+    "description":"The ability to bathe self in shower or tub, including washing, rinsing, & drying, self. Does not include transferring in/out of tub/shower.",
+    "exceptions":[
+        "Not about transferring in/out the tub/shower",
+        "Not about washing the entire body outside of a tub or shower"
+    ], 
+    "tips":[
+        "Consider the most usual performance, not the lowest",
+        "If there are orders to not get these areas wet & rating cannot be inferred, the rating is 'N. Not Applicable"
+    ],
+    "dependent":[
+        "Patient may lean forwards, backwards, may be able to hold to grab bars, may be able to raise arms or legs, but Helper does all the effort to wash, rinse & dry patient. The patient contributes no effort to washing, rinsing or drying.",
+        "While patient may be able to participate in some aspects of bathing at bedside, this item measures bathing in the shower/tub."
+    ],
+    "substantial":[
+        "Patient is able to use a washcloth to initiate some washing, but is unable to reach all body parts",
+        "Patient is able to hold showerhead or washcloth to initiate some rinsing, but is unable to completely rinse body",
+        "Patient is able to use a towel to initiate or dry some parts of body, but is unable to reach all body parts",
+        "Patient is able to participate in some aspects of all three, but Helper provides > 50% of the effort"
+    ],
+    "partial":[
+        "Patient is able to use washcloth to wash most of body, but is unable to thoroughly/completely wash all body parts",
+        "Patient is able to hold showerhead or washcloth to rinse most of body, but is unable to thoroughly or completely rinse all body parts",
+        "Patient is able to use a towel to dry most of body, but is unable to thoroughly or completely dry all body parts",
+        "Patient is able to completely wash, rinse, dry some parts body in the tub/shower, but is unable to complete them all & helper provides <50% the effort"
+    ],
+    "supervision":[
+        "Once patient is in shower/tub, helper provides prompting & cueing for sequencing to fully accomplish washing, rinsing & drying self",
+        "There may be concerns about safety w/completing task &/or thoroughly washing all body parts which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for balance/safety when reaching for washcloth, faucet or towel to prevent falling, or to enable patient to thoroughly wash, rinse, & dry all body parts."
+    ],
+    "setup":[
+        "Once in shower/tub, patient needs helper for initial preparation such as handing patient a prepared washcloth, towel or other equipment or in application of an orthosis/prosthesis",
+        "Patient may need helper to draw water or check temperature prior to starting bath."
+    ],
+    "independent":[
+        "Once patient is in shower or tub, patient washes, rinses & dries self w/o helper assistance.",
+        "Patient can use required equipment, such as bathmitt."            
+    ]
+},{
+    "num":8,
+    "id":"C6",
+    "name":"Putting On/Taking Off Footwear",
+    "set":"Self-Care",
+    "description":"The ability to put on & take off socks & shoes or other footwear that are appropriate for safe mobility.",
+    "exceptions":[
+        "Not about the ability to put on & remove compression/anti-embolism stockings"
+    ],
+    "tips":[
+        "Consider the most usual performance, not the lowest",
+        "If patient needs help getting compression/anti-embolism stockings on, but is independent w/everything else in the item, the maximum score will be a '5'"
+    ],
+    "dependent":[
+        "The patient may be able to raise legs/feet to allow helper to put the shoes/socks on, but helper does all the effort to put on/remove socks & shoes or other footwear & patient contributes no effort to the task."
+    ],
+    "substantial":[
+        "Patient participates in putting on/taking off shoes/footwear, but helper provides >50% of the effort",
+        "Patient is able to bring sock or shoe to the foot, but is unable to pull them on & snugly fit them on foot.",
+        "Once helper starts sock, patient is able to pull it on, but patient is unable to assist w/shoes/footwear",
+        "Patient is unable to assist w/socks, but once helper fits shoe/footwear on distal part of foot, patient is able to slip the entire foot into shoe/footwear"
+    ],
+    "partial":[
+        "Patient participates in putting on/taking off shoes/footwear, & helper provides <50% of the effort",
+        "Patient is able to pull on sock or shoe, but is unable to completely pull them on to fit snugly on foot w/or w/o adaptive equipment if necessary.",
+        "Once helper starts sock, patient is able to pull it on & once helper fits shoe/footwear on distal part of foot, patient is able to slip the entire foot into the shoe/footwear w/or w/o adaptive equipment if necessary."
+    ],
+    "supervision":[
+        "The patient requires prompting & cueing for sequencing to fully accomplish putting on & taking off socks, shoes, or other footwear w/or w/o adaptive equipment.",
+        "There may be concerns about safety w/completing task w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required while reaching forward to put on or take off shoes/socks or in fastening Velcro or tying shoe laces or in using adaptive equipment safely & correctly"
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as handing patient socks/shoes or handing patient required equipment such as sock aid, shoe horn or in application of an orthosis/prosthesis/compression stockings. Patient may need helper to smooth stockings, or tie shoelaces or fasten velcro once shoes/footwear are on",
+        "Note: If a patient can complete all tasks of putting on/taking off footwear except putting on/taking off compression stockings, the score would be a '5'"
+    ],
+    "independent":[
+        "Patient puts on socks, shoes or other footwear (including compression stockings) & can tie/velcro the footwear as well as remove the footwear & socks/stockings w/o helper assistance. Patient can use required equipment such as sock aid or shoe horn."
+    ]
+},{
+    "num":9,
+    "id":"B1",
+    "name":"Lying to Sitting on Side of Bed",
+    "set":"Mobility",
+    "description":"The ability to safely move from lying on the back to sitting on the side of the bed w/feet flat on the floor, no back support.",
+    "exceptions":[
+        "Not about returning to lying down -- that is covered in another item"
+    ],
+    "tips":[
+        "Consider whether patient requires back support when choosing the rating",
+        "The patient may use assistive devices, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely moving from lying on the back to sitting on the side of the bed w/feet flat on floor, no back support. Patient may cross arms over chest or cross legs in preparation for moving from supine to sit, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient is able to initiate positioning self by reaching for bedrail or bending one knee to push self over, but is unable to initiate any physical effort at rolling over or pushing up to sit. Once sitting, patient requires full assist to stay upright.",
+        "Patient is unable to initiate positioning self for coming to sitting position, but once feet are on floor, patient is able to sit unsupported for intermittent brief periods.",
+        "Patient is able to pull using bedrails, initiate push up from bed, &/or move legs toward the side of the bed, but helper provides >50% of the effort to sit up on side of bed & once sitting, patient requires >50% helper assistance to remain upright."
+    ],
+    "partial":[
+        "Patient participates in safely moving from lying on the back to sitting on the side of bed, & helper provides <50% of the effort",
+        "Patient is able to roll self using bedrail &/or bends one knee to push self over, but is unable to generate enough physical effort to sit up completely w/o helper assistance. Once sitting, patient requires occasional physical assist to stay upright.",
+        "Patient is able to move legs to side of bed, but requires some assistance to sit up; patient can accomplish positioning self on side of bed w/feet on the floor, but is only able to sit unsupported for short periods of time.",
+        "Patient is able to pull using bedrails or initiate push up from bed, & helper provides <50% of the effort to sit up on side of bed & once sitting, patient requires <50% helper assistance to remain upright."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely moving from lying on the back to sitting on the side of the bed w/no back support",
+        "There may be concerns about safety w/completing the task w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, initial sitting balance, sitting balance after fatigue, &/or pelvic stability for sitting w/o back support."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or grab bars, removing bedcovers, or in application of an orthosis/prosthesis. Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following sitting up."
+    ],
+    "independent":[
+        "Patient safely moves from lying on his/her back to sitting on side of bed w/feet flat on the floor w/no back support w/o helper assistance. Patient can use required equipment such as orthosis/prosthesis, bedrails or grab bars."
+    ]
+},{
+    "num":10,
+    "id":"B2",
+    "name":"Sit to Stand",
+    "set":"Mobility",
+    "description":"The ability to safely come to a standing position from sitting in a chair or on the side of the bed.",
+    "exceptions":[
+        "Not about sitting back down"
+    ],
+    "tips":[
+        "The patient may use assistive devices",
+        "Consider preparatory steps, such as whether assistance is needed w/scooting to edge of bed/chair, weight-shifting forward, etc."
+    ],
+    "dependent":[
+        "Patient may cross arms over chest or place hands on an assistive device or therapist in preparation for standing, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient is able to complete preparatory steps to stand by securing chair, placing assistive device in appropriate place, scooting to edge of chair, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, but provides <50% of the physical effort to stand.",
+        "Patient is unable to complete preparatory steps to stand, but once feet are on the floor, patient is able to generate some power to lean forward & stand.",
+        "Patient is able to complete <50% of the preparatory steps to stand, & helper provides >50% of the effort to assist patient to a standing position."
+    ],
+    "partial":[
+        "Patient is able to complete preparatory steps to stand by securing chair, placing assistive device in appropriate place, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, & helper provides <50% of the physical effort to stand.",
+        "Patient is unable to complete preparatory steps to stand, but once feet are on the floor, patient is able to lean forward & stand w/<50% physical helper assistance.",
+        "Patient is able to complete >50% of the preparatory steps to stand, helper provides <50% of the effort to assist patient to a standing position."
+    ],
+    "supervision":[
+        "There may be concerns about safety w/completing task before chair is locked, lifting footrests, or w/o falling over which require verbal cues from helper for technique.",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, initial standing balance, locking brakes, &/or using assistive device appropriately once standing."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or armrests, locking brakes, lifting footrests, or placing assistive device or transfer pole w/in reach, or in application of a orthosis/prosthesis. Patient may need helper to remove orthosis/prosthesis or transfer pole following activity or adjust assistive device position."
+    ],
+    "independent":[
+        "Patient completes appropriate safety steps which may include locking brakes, moving footrests, positioning assistive devices, &/or using other required equipment such as orthosis/prosthesis or armrests/transfer poles."
+    ]
+},{
+    "num":11,
+    "id":"B3",
+    "name":"Chair/Bed-to-Chair Transfer",
+    "set":"Mobility",
+    "description":"The ability to safely transfer to an from a chair (or wheelchair). The chairs are placed at right angles to each other",
+    "exceptions":[
+        "Not about walking a short distance to a chair"
+    ],
+    "tips":[
+        "The patient may use ADs","Usual care is important"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely transferring to/from a chair or WC placed at right angles to each other. Patient may cross arms over chest in preparation for standing or bearing weight through legs, but does not participate in the task being measured. The transfer may require 1 helper, 2 helpers and/or require a sliding board or Hoyer Lift."
+    ],
+    "substantial":[
+        "Patient participates in rocking/leaning/rolling to allow Hoyer sling or sliding board or other device to be placed underneath them...or participates in leaning forward to come to a standing position from sitting in a chair or on the side of the bed, but helper provides >50% of the effort",
+        "Patient is able to complete some or most of the preparatory steps to transfer by securing chair, scooting to edge of chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or partially placing sliding board underneath them but helper provides >50% of the effort to transfer to the chair/WC.",
+        "Patient is unable to complete preparatory steps to transfer, but once feet are on the floor, the patient is able to generate some power to lean forward, bear weight through legs, move feet & transfer",
+        "Patient is able to complete some of the preparatory steps to transfer, & bears weight/moves feet during transfer, but helper provides >50% of the effort to assist the patient in transferring to a chair or WC."
+    ],
+    "partial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them & participates in leaning forward to come to a standing position from sitting in a chair or on the side of the bed, & helper provides <50% of the effort to complete the transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, scooting to edge of chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or placing sliding board underneath them but helper provides <50% effort to transfer to the chair/WC.",
+        "Patient is unable to complete preparatory steps to transfer, or scoot to edge of chair/bed but once feet are on the floor or sliding board is in place, the patient is able to lean forward, bear weight through legs, & complete the transfer.",
+        "Patient is able to complete >50% of the preparatory steps to transfer, & >50% of the effort to transfer to a chair/WC.  Helper provides <50%"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely transferring from a chair/WC placed at right angles",
+        "There may be concerns about safety w/completing task before chair is locked, lifting footrests, or w/o falling over which require verbal cues from helper for technique",
+        "Touching/Steadying􀀃 only 􀀃may 􀀃be 􀀃required􀀃 for 􀀃hand/foot/trunk􀀃 placement,􀀃 initial􀀃 standing 􀀃balance 􀀃or􀀃 sliding 􀀃board􀀃 placement,􀀃 removing􀀃 armrests, 􀀃locking􀀃 brakes,􀀃 and/or 􀀃using􀀃 assistive 􀀃device􀀃 appropriately􀀃 (if􀀃 necessary)􀀃 once􀀃 standing􀀃 to 􀀃pivot􀀃 and􀀃 transfer.􀀃􀀃"
+    ],
+    "setup":[
+        "Patient􀀃 needs􀀃 helper􀀃 for􀀃 initial􀀃 preparation􀀃 such􀀃 as􀀃 removing􀀃 or􀀃 adjusting 􀀃armrests, locking􀀃 brakes, lifting􀀃 footrests, placing􀀃 sliding􀀃 board,􀀃 or 􀀃in􀀃 application􀀃 of􀀃 an􀀃 orthosis􀀃/􀀃prosthesis.􀀃􀀃 Patient􀀃 may 􀀃need 􀀃helper􀀃 to 􀀃position􀀃 assistive􀀃 device 􀀃(if􀀃 used 􀀃once􀀃 standing).􀀃􀀃 Patient􀀃 may 􀀃need 􀀃helper􀀃 to 􀀃remove􀀃 orthosis/prosthesis􀀃 or 􀀃sliding 􀀃board􀀃 following􀀃 activity􀀃 or 􀀃replace􀀃 footrests 􀀃or􀀃 armrests.􀀃"
+    ],
+    "independent":[
+        "Patient safely transfers􀀃 to􀀃 and􀀃 from􀀃 a􀀃 chair􀀃 or􀀃 WC􀀃 placed􀀃 at􀀃 right 􀀃angles􀀃 to􀀃 each􀀃 other 􀀃without􀀃 any􀀃 assistance􀀃 from􀀃 helper.􀀃􀀃 Patient􀀃 completes􀀃 appropriate􀀃 safety􀀃 steps􀀃 which􀀃 may 􀀃include 􀀃locking 􀀃brakes,􀀃 moving 􀀃footrests,􀀃 positioning 􀀃sliding􀀃 board,􀀃 and/or􀀃 using􀀃 other 􀀃required􀀃 equipment􀀃 such􀀃 as􀀃 orthosis/prosthesis􀀃 or􀀃 other􀀃 assistive􀀃 device.􀀃"
+    ]
+},{
+    "num":12,
+    "id":"B4",
+    "name":"Toilet Transfer",
+    "set":"Mobility",
+    "description":"The ability to safely get on & off a toilet or commode",
+    "exceptions":[
+        "Not about hygiene associated w/toileting",
+        "Not about managing clothing off &/or on"
+    ],
+    "tips":[
+        "The patient may use ADs","Usual care is important"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely getting on & off a toilet or commode. Patient may cross arms over chest in preparation for transfer, but does not participate in the actual task being measured. The transfer may require 1 helper, 2 helpers and/or require a sliding board."
+    ],
+    "substantial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them...or participates in leaning forward to come to a standing position from sitting, but helper provides >50% of the effort to complete the toilet transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, positioning legs/feet in preparation for weight-bearing, rocking prior to coming to stand, or partially placing sliding board underneath them but helper provides >50% of the effort to transfer to/from a commode/toilet.",
+        "Patient is unable to complete preparatory steps to transfer, but once feet are on the floor, the patient is able to generate some power to lean forward, bear weight through legs, move feet, & transfer to/from a commode/toilet.",
+        "Patient is able to complete some of the preparatory steps to transfer, & bears weight/moves feet during transfer, but helper provides >50% of the effort to assist the patient in transferring to/from a commode/toilet."
+    ],
+    "partial":[
+        "Patient participates in rocking to allow sliding board or other device to be placed underneath them & participates in leaning forward to come to a standing position from sitting, & helper provides <50% of the effort to complete the toilet transfer",
+        "Patient is able to complete preparatory steps to stand by securing chair, scooting to edge, positioning legs/feet in preparation for weight- bearing, rocking prior to coming to stand, & /or placing sliding board underneath them but helper provides some effort to transfer to/from the toilet/commode.",
+        "Patient is unable to complete preparatory steps to get in position/prepare to transfer, but once feet are on the floor or sliding board is in place, the patient is able to lean forward, bear weight through legs & complete the transfer to/from the toilet/commode.",
+        "Patient is able to complete >50% of the preparatory steps to transfer, & >50% of the effort to transfer to a toilet/commode.  Helper provides <50%"
+    ],
+    "supervision":[
+        "Prompting & cueing for sequencing to fully accomplish a safe transfer to/from a commode or toilet",
+        "There may be concerns about safety & accuracy of sitting on toilet/commode, or about balance while seated on toilet which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, standing balance or sliding board placement, eccentric control while lowering self onto toilet, and/or to accurately sit on toilet/commode seat."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation to get on/off toilet or commode (e.g., if approaching by WC): removing or adjusting armrests, locking brakes, lifting footrests, or placing sliding board; or if approaching by ambulation: placement of AD, application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis or sliding board following activity or replace footrests or armrests."
+    ],
+    "independent":[
+        "Patient safely gets on & off a toilet or commode w/o any assistance from helper. Patient completes appropriate safety steps which may include: If approaching by WC: locking brakes, moving footrests, positioning sliding board; and/or if approaching by ambulation: placement of AD, using other required equipment such as orthosis/prosthesis or other AD."
+    ]
+},{
+    "num":13,
+    "id":"B5",
+    "name":"Method of Ambulation (Walking, Wheelchair, Both)",
+    "set":"Mobility",
+    "description":"Does the patient ambulate and/or use a wheelchair mobility?",
+    "dependent":[
+        "1. Ambulation Only",
+        "If ambulation is the only mode of mobility, code B5a for the longest distance completed"
+    ],
+    "substantial":[
+        "2. Wheelchair Only",
+        "If WC is the only mode of mobility, code B5b for the longest distance completed"
+    ],
+    "partial":[
+        "3. Both Ambulation & WC",
+        "If Both WC & ambulation are used for mobility, code both B5a & B5b"
+    ]
+},{
+    "num":14,
+    "id":"B5a",
+    "name":"Longest Distance Walked",
+    "set":"Mobility",
+    "description":"Select the longest distance the patient walks & code his/her level of independence (Level 1-6) on that distance. Observe performance",
+    "exceptions":[
+        "Not scored if patient does not currently walk & is not expected to walk",
+        "Not about how patient stands up"
+    ],
+    "tips":[
+        "Select only 1 distance: 1.Walk 150ft/45m, 2.Walk 100ft/30m, 3.Walk 50ft/15m, 4.Walk in Room Once Standing (at least 10ft)",
+        "If patient is unable to walk or walks <10 feet, the score is automatically 'Dependent: 1'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/assistance, but is unable to take steps.",
+        "*Note* The only time this score would be used is if the patient is unable to ambulate any distance at all."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) & advance one or two feet in attempts to walk, but helper provides >50% of the effort to achieve the motion",
+        "Patient may be able to bear weight through arms (if AD used) but requires assistance to advance an impaired limb or advance the AD w/o assistance from helper",
+        "Patient may be able to bear weight through arms & take some steps, but helper is providing >50% of the effort to advance the AD and/or provide support to the patient to remain upright."
+    ],
+    "partial":[
+        "Patient able to bear weight through arms (if AD used), advance feet and/or AD to walk, & helper provides <50% of the effort to achieve the motion",
+        "Patient able to bear weight through arms (if AD used), take some steps, & advance AD, & helper is providing <50% of the effort to provide support to the patient to remain upright, or assist w/advancing the AD, or brace/position an impaired limb",
+        "Patient able to walk, but helper is providing <50% of the effort to insure appropriate weight-bearing restrictions are met"
+    ],
+    "supervision":[
+        "Patient needs prompting & cueing for sequencing to use AD or accomplish mobility distance",
+        "There may be concerns about safety when using the AD around obstacles or gait speed/step height/step length",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility, by reaching for/positioning AD or applying prosthesis/orthosis/brace/special shoes. After activity, helper removes AD and/or assists w/prosthesis/orthosis/brace/special shoes."
+    ],
+    "independent":[
+        "Patient safely walks the distance w/w/o an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/brace/special shoes."
+    ]
+},{
+    "num":15,
+    "id":"B5b",
+    "name":"Longest Distance Wheeled",
+    "set":"Mobility",
+    "description":"Select the longest distance the patient wheels & code his/her level of independence (Level 1-6) on that distance. Observe performance",
+    "exceptions":[
+        "Not scored if patient does not currently use a WC & is not expected to use a WC",
+        "Not about how patient stands up"
+    ],
+    "tips":[
+        "Select only 1 distance: 1.Wheel 150ft/45m, 2.Wheel 100ft/30m, 3.Wheel 50ft/15m, 4.Wheel in Room Once Seated (at least 10ft)",
+        "If patient is unable to wheel or wheels <10 ft, the score is automatically '1. Dependent'"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of mobility. Helper must propel the patient in the WC.",
+        "*Note:  The only time this score would be used is if the patient is unable to wheel self any distance at all."
+    ],
+    "substantial":[
+        "Patient may be able to advance feet or place heels to the floor in attempts to propel WC/pull WC forward but helper provides >50% of the effort to move the WC forward or maneuver it around obstacles",
+        "Patient may be able to place hands on wheels & push/pull wheels but unable to complete one or more revolutions & helper provides >50% of the effort to move the WC forward"
+    ],
+    "partial":[
+        "Patient able to advance feet & place heels to the floor to propel WC/pull WC forward & helper provides <50% of the effort to move the WC forward or maneuver it around obstacles",
+        "Patient able to place hands on wheels & push/pull wheels to achieve some/most of required revolutions to move WC forward, & helper provides <50% of the effort to get started and/or make turns"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish mobility distance",
+        "There may be concerns about safety when maneuvering WC around obstacles or to avoid self- injury to hands & feet",
+        "Touching/Steadying only may be required for hand/foot placement or to complete full step or full revolution of wheels",
+        "Touching/Steadying only may be required for assisting patient w/turns"
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility, by removing or adjusting armrests, unlocking brakes, removing or lifting footrests or applying prosthesis/orthosis/special shoes. After activity, helper replaces armrests, leg rests and/or assists with prosthesis/orthosis."
+    ],
+    "independent":[
+        "Patient safely propels wheelchair over the distance, making turns and/or moving around obstacles. Patient requires no help w/WC armrests. footrests, brakes or with prosthesis/orthosis/special shoes"
+    ]
+},{
+    "num":16,
+    "id":"C3",
+    "name":"Roll Left & Right",
+    "set":"Mobility",
+    "description":"The ability to roll from lying on back to left & right side, & roll back to back",
+    "exceptions":[
+        "Sitting up or lying down"
+    ],
+    "tips":[
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of rolling from lying on the back to the left & right side, & returning to lying on the back. Patient may cross arms over midline or move legs in preparation for rolling, but does not participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Patient participates in safely rolling from lying on the back to the left & right side, & returning to lying on the back, but helper provides >50% of the effort",
+        "Patient is able to initiate rolling by reaching for bedrail or bending one knee to use for pushing over, but is unable to initiate any physical effort at rolling over or returning to back",
+        "Patient is able to partially complete rolling to right or left & almost complete returning to lying on back, but helper still provides >50% of the effort",
+        "Patient is able to roll to one side, but requires complete assistance from the helper to roll to other side & return to lying on the back"
+    ],
+    "partial":[
+        "Patient participates in safely rolling from lying on the back to the left & right side, & returning to lying on the back, & helper provides <50% of the effort",
+        "Patient is able to partially complete rolling by reaching for bedrail, & initiates effort to roll over, but is unable to exert enough physical effort to complete the roll",
+        "Patient is able to roll to one side, return to back & initiate rolling to the other side, but requires <50% effort provided by helper to complete the task, but patient can return to lying on back"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely rolling from lying on back to the left & right side & returning to lying on the back",
+        "There may be concerns about safety w/completing task due to mobility restrictions &/or orthopedic restrictions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, positioning in preparation for roll or after rolling, and/or after fatigue."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as placing hands on bedrail or positioning leg in hooklying to push for rolling to right or left side, adjusting bedrails or grab bars, or removing bedcovers or in application of a orthosis /prosthesis",
+        "Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following returning to back."
+    ],
+    "independent":[
+        "Patient safely rolls from lying on his/her back to the right & left side & returning to lying on the back w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis, electric bed controls, bedrails or grab bars."
+    ]
+},{
+    "num":17,
+    "id":"C4",
+    "name":"Sit to Lying",
+    "set":"Mobility",
+    "description":"The ability to move from sitting on side of bed to lying flat on the bed",
+    "exceptions":[
+        "Not about moving from lying down to sitting up -- that is covered in another item"
+    ],
+    "tips":[
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of safely moving from sitting on the side of the bed to lying flat on the bed. Patient may cross arms over chest or cross legs in preparation for moving from sit to supine, but does not participate in the actual task being measured."],
+    "substantial":[
+        "Patient participates in safely moving from sitting on side of bed to lying flat on the bed, but helper provides >50% of the effort",
+        "Patient is able to initiate the movement by reaching for bedrail, lowering self to elbow or partially lifting legs toward the bed, but is unable to initiate a significant physical effort at moving to a lying position. Patient requires >50% assistance from helper to get legs on bed & in a fully flat position",
+        "Patient is unable to initiate positioning self for getting to a lying position, but once movement is started, the patient is able to lift one leg partially/completely onto the bed.",
+        "Patient is unable to contribute to moving from a sitting position to lying on side or lift legs on bed, & helper provides >50% of the effort but once legs are up on the bed, the patient can roll to their back."
+    ],
+    "partial":[
+        "Patient participates in safely moving from sitting on side of bed to lying flat on the bed, & helper provides <50% of the effort",
+        "Patient is able to reach for bedrail or lower self to elbow & lift legs toward the bed, but cannot achieve enough physical effort to complete moving to a lying position. Patient requires <50% assistance from helper to get legs on bed.",
+        "Patient needs assistance to initiate sidelying, but once there, the patient is able to lift legs onto the bed.",
+        "Patient is able to initiate moving from a sitting position to lying on side & lift legs on bed, but once there, helper provides <50% of the effort to assist patient to roll to their back."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely moving from sitting on side of bed to lying flat on the bed",
+        "There may be concerns about safety w/completing task w/o falling over or to follow orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand placement, lowering self to sidelying, getting legs completely on the bed and/or rolling onto back."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as moving bed to optimal height position, adjusting bedrails or pillows, removing bedcovers or in application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis following activity or adjust bed position or bedrails following lying down."
+    ],
+    "independent":[
+        "Patient safely moves from sitting on side of bed to lying flat on the bed w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis, bedrails or grab bars."
+    ]
+},{
+    "num":18,
+    "id":"C5",
+    "name":"Pick Up Object",
+    "set":"Mobility",
+    "description":"The ability to bend/stoop from a standing position to pick up small object such as a spoon from the floor, once the patient is in a standing position",
+    "exceptions":[
+        "Not about how far away from the foot patient can reach"
+    ],
+    "tips":[
+        "Use an object that is easy to grip & easy to see",
+        "Object can be placed in front or to the side the foot",
+        "The patient may use ADs, such as side rails, grab bars, bed elevation"
+    ],
+    "dependent":[
+        "Patient is dependent in all aspects of picking up an object from the floor. Once standing, the patient may initiate bending over or bend knees to stoop, but can make no more than minimal motion to participate in the actual task being measured."
+    ],
+    "substantial":[
+        "Once standing, patient participates in bending/stooping to pick up a small object from the floor & standing back up but helper provides >50% of the effort",
+        "Patient is able to bend over or stoop, but is unable to pick up an object or resume upright standing w/o >50% assistance from helper",
+        "Helper provides >50% of the effort to help the patient bend over/stoop from a standing position & resume upright standing, but the patient is able to pick up the small object from the floor."
+    ],
+    "partial":[
+        "Once standing, patient participates in bending/stooping to pick up a small object from the floor & stands back up, & helper provides <50% of the effort",
+        "Patient bends over or stoops, but needs <50% assistance from helper to pick the object up or resume upright standing w/o losing balance",
+        "Helper provides <50% of the effort to assist the patient bend/stoop from a standing position & resume upright standing, but the patient is able to pick up the small object from the floor."
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely bending over/stooping from a standing position to pick up a small object from the floor",
+        "There may be concerns about safety w/completing task w/o falling over or to follow orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for bending over, stooping, & standing back up."
+    ],
+    "setup":[
+        "Helper only assists prior to or following bending or stooping from a standing position to pick up an object from the floor.",
+        "Patient needs helper for initial preparation such as getting in position close enough to the object before bending over/stooping or in application of an orthosis /prosthesis. Patient may need helper to remove orthosis/prosthesis following activity."
+    ],
+    "independent":[
+        "Patient safely bends over/stoops from a standing position to pick up small object from the floor w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis."
+    ]
+},{
+    "num":19,
+    "id":"C7",
+    "name":"Primarily WC",
+    "set":"Mobility",
+    "description":"Does this patient primarily use a wheelchair for mobility?",
+    "dependent":[
+        "0. No (Wheelchair is not primary form of mobility)",
+        "If N0, code C7a-C7f"
+    ],
+    "substantial":[
+        "1. Yes (Wheelcahir is the primary form of mobility)",
+        "If Yes, code C7f ONLY"
+    ]
+},{
+    "num":20,
+    "id":"C7a",
+    "name":"1 Step (Curb)",
+    "set":"Mobility",
+    "description":"The ability to step over a curb or up & down 1 step",
+    "exceptions":[
+        "Not about wheeling up a ramp"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/o assistance, but is unable to even initiate taking a step up or down. Patient is totally dependent in the task."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) but is unable to lift a foot onto curb/step w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms (if AD used) & lift foot in attempt to step up, but helper provides >50% of the effort to achieve the power to step over /step up & down and/or to maintain balance",
+        "Patient may be able to bear weight through arms & place foot on step/curb, but helper is providing >50% of the effort to stabilize stance knee and/or provide balancing support while getting onto or over curb/step"
+    ],
+    "partial":[
+        "Patient is able to bear weight through arms (if AD used) & is able to lift one foot onto curb/step but needs <50% assistance from helper to step up and/or get 2nd foot onto curb/step, & is able to step down w/<50% assistance",
+        "Patient is able to bear weight through arms (if AD used) & step both feet onto curb/step, & helper provides <50% of assist as patient steps down from curb/step",
+        "Patient may be able to bear weight through arms, step feet on & off the step/curb, but needs helper to provide <50% assistance to stabilize knee(s) &/or provide balancing support"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (if used) or accomplish step up & down",
+        "There may be concerns about safety if using an AD or appropriate sequence of step up & down due to orthopedic precautions",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to help prepare for stepping up on curb/step, by reaching for/positioning AD or applying prosthesis/orthosis. After activity, helper removes AD and/or assists w/prosthesis/orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely steps over a curb or up & down one step with/without an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/special shoes."
+    ]
+},{
+    "num":21,
+    "id":"C7b",
+    "name":"Walk 50 feet with 2 Turns",
+    "set":"Mobility",
+    "description":"The ability to walk 50 feet & make 2 turns, once standing",
+    "exceptions":[
+        "Not about the ability to stand up or sit down"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/o assistance, but is unable to walk 50 feet & make two turns."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) & walk part of the distance, but helper provides >50% of the effort to complete the activity",
+        "Patient may be able to bear weight through arms (if AD used) & walk the first 25 feet but is unable to turn, walk the 2nd 25 feet & turn again w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms & walk the distance, but helper is providing >50% of the effort to advance walker &/or complete turns and/or provide support to the patient to remain upright during directional changes."
+    ],
+    "partial":[
+        "Patient able to bear weight through arms (if AD used), walk 25 feet turn, walk 25 feet & turn again, but helper is needed to provide <50% of the effort to complete the activity",
+        "Patient able to bear weight through arms (if AD used), walk the distance & advance walker, & helper is giving <50% of the effort to provide support to the patient during turns, or assist w/directional changes.",
+        "Patient able to walk & turn, but helper is providing <50% of the effort to insure appropriate weight-bearing restrictions are met"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (if applicable) or accomplish both turns",
+        "There may be concerns about safety when using the AD during turns",
+        "There may be concerns about gait speed/step height/step length",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, and/or for weight-bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility task, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists w/prosthesis/orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely walks the distance & completes two turns with/without an AD. Patient requires no help w/the AD or with prosthesis/orthosis/special shoes."
+    ]
+},{
+    "num":22,
+    "id":"C7c",
+    "name":"12 Steps",
+    "set":"Mobility",
+    "description":"The ability to go up & down 12 steps w/or w/o a rail",
+    "exceptions":[
+        "Not about how quickly patient accomplishes the task",
+        "Not about only one direction -- up or down -- rather it is up and down"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up with/without assistance & hold to rail, but is unable to go up & down 12 steps."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but is unable to achieve the power necessary to go up & down 12 steps w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms (if AD used) &/or use rail & go up 12 steps, but helper provides >50% assistance because the patient is unable to turn around at top of steps & go back down 12 steps",
+        "Patient may be able to bear weight through arms &/or use rail but is unable to get up the stairs & turn around w/o >50% assistance from helper, but is able to come down the 12 steps"
+    ],
+    "partial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but needs <50% assistance from helper to achieve the power necessary to go all the way up & down 12 steps",
+        "Patient may be able to bear weight through arms (if AD used) &/or use rail & go up & down 12 steps, but requires <50% assistance from the helper to turn around at top of steps",
+        "Patient may be able to bear weight through arms &/or use rail but needs <50% assistance to get initiate going up the first few steps",
+        "Patient is able to complete the 12 steps up & turn around, but then needs <50% assistance from helper coming down the steps to stabilize the knees and/or provide balancing support"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (If used) or handrail to accomplish going up & down 12 steps",
+        "There may be concerns about safety when using the AD or appropriate sequence of stepping up & down due to orthopedic precautions",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, for turning at top of stairs, or for weight- bearing restrictions."
+    ],
+    "setup":[
+        "Patient needs helper to prepare for going up/down 12 steps, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists w/prosthesis /orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely goes up & down 12 steps with/without an AD. Patient requires no help w/the AD or w/prosthesis/orthosis/special shoes."
+    ]
+},{
+    "num":23,
+    "id":"C7d",
+    "name":"4 Steps",
+    "set":"Mobility",
+    "description":"The ability to go up & down 4 steps w/or w/o, once standing",
+    "exceptions":[
+        "Not about how quickly patient accomplishes the task",
+        "Not about only one direction -- up or down -- rather it is up and down"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Usual care is important",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up with/without assistance, & hold to rail, but is unable to go up & down 4 steps."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but is unable to achieve the power necessary to go up & down 4 steps w/o >50% assistance from helper",
+        "Patient may be able to bear weight through arms (if AD used)&/or use rail & go up 4 steps, but helper provides >50% assistance because the patient is unable to turn around at top of steps & go back down 4 steps",
+        "Patient may be able to bear weight through arms &/or use rail but is unable to get up the stairs & turn around w/o >50% assistance from helper, but is able to come down the 4 steps"
+    ],
+    "partial":[
+        "Patient may be able to bear weight through arms (if AD used) or use rail but needs <50% assistance from helper to achieve the power necessary to go up & down 4 steps",
+        "Patient may be able to bear weight through arms (if AD used) &/or use rail & go up & down 4 steps, but requires <50% assistance from the helper to turn around at top of steps",
+        "Patient may be able to bear weight through arms &/or use rail but needs <50% assistance to initiate going up first step(s)",
+        "Patient is able to complete the 4 steps up & turn around, but then needs <50% assistance from helper coming down the steps to stabilize the knees and/or provide balancing support"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD (if used) or handrail to accomplish going up & down 4 steps",
+        "There may be concerns about safety when using the AD or appropriate sequence of stepping up & down due to orthopedic precautions",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, for turning at top of stairs, or for weight- bearing restrictions"
+    ],
+    "setup":[
+        "Patient needs helper to prepare for going up/down 4 steps, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists w/prosthesis /orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely goes up & down 4 steps with/without an AD. Patient requires no help w/the AD or with prosthesis/orthosis/special shoes."
+    ]
+},{
+    "num":24,
+    "id":"C7e",
+    "name":"Walking 10 feet on Uneven Surfaces",
+    "set":"Mobility",
+    "description":"The ability to walk 10 feet on uneven or sloping surfaces, such as grass or gravel",
+    "exceptions":[
+        "Not exclusive to outside terrain -- thresholds & carpeted surfaces can also be uneven"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "Keep in mind the concept the item being scored",
+        "If patient does not ambulate & is not expected to ambulate, rate this item 'N. Not Applicable'"
+    ],
+    "dependent":[
+        "The patient may be able to stand up w/o assistance, & ambulate on even surfaces, but is unable to walk 10 feet on uneven or sloping surfaces."
+    ],
+    "substantial":[
+        "Patient may be able to bear weight through arms (if AD used) & walk part of the distance, but helper provides >50% of the effort to achieve the activity",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing >50% of the effort to advance walker & provide support/balance to the patient",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing >50% of the effort to help patient achieve enough power to get up a slope",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing >50% of the effort to help patient maintain WB restrictions"
+    ],
+    "partial":[
+        "Patient able to bear weight through arms (if AD used) & walk 10 feet on uneven or sloping surfaces & helper provides <50% of the effort to achieve the activity",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing <50% of the effort to advance walker & provide support/balance to the patient",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing <50% of the effort to help patient achieve enough power to get up a slope",
+        "Patient may be able to bear weight through arms & achieve the distance, but helper is providing <50% of the effort to help patient maintain WB restrictions"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to use AD",
+        "There may be concerns about safety when using the AD on uneven surfaces",
+        "Patient may require prompting & cueing for gait speed/step height/step length.",
+        "Touching/Steadying only may be required for balance, for appropriate use of AD, or for weight-bearing restrictions"
+    ],
+    "setup":[
+        "Patient needs helper to prepare for mobility task, by reaching for/positioning AD or applying prosthesis/orthosis/special shoes. After activity, helper removes AD and/or assists with prosthesis/orthosis/special shoes."
+    ],
+    "independent":[
+        "Patient safely walks the distance with/without an AD. Patient requires no help w/the AD or with prosthesis/orthosis/special shoes."
+    ]
+},{
+    "num":25,
+    "id":"C7f",
+    "name":"Car Transfer",
+    "set":"Mobility",
+    "description":"The ability to transfer in & out of a car or van on the passenger side.",
+    "exceptions":[
+        "Not about opening /closing the door",
+        "Not about fastening the seat belt"
+    ],
+    "tips":[
+        "The patient may use ADs",
+        "A backseat can also be used to test the item",
+        "Usual care is important"
+    ],
+    "dependent":[
+        "Patient may be able to stand up &/or bend over &/or bear weight through legs, but does not participate in the actual task being measured. The transfer may require 1 helper or 2 helpers."
+    ],
+    "substantial":[
+        "Patient participates in stooping, bending or turning to get in position for car transfer, but helper provides >50% of the effort",
+        "Patient is able to stoop, bend or turn & get part of the way in/out of car, but helper provides >50% of the effort to transfer in & out of the car.",
+        "Patient is unable to complete preparatory steps to transfer, but once the patient is sitting in the car seat, he is able to swing legs into car & out of car, but helper provides >50% of total effort to get patient in & out of car",
+        "Patient is unable to complete preparatory steps to get into car & swing legs into & out of car, but once the patient is turned w/feet on the ground, he is able to use AD/car support to initiate some force to stand up from car seat, but helper provides >50% of the total effort to get patient in & out of car"
+    ],
+    "partial":[
+        "Patient participates in stooping, bending or turning to get in position for car transfer , & helper provides <50% of the effort",
+        "Patient is able to stoop, bend or turn & get most of the way in/out of car, & helper provides <50% of the effort to transfer in & out of the car.",
+        "Patient is able to complete most of the steps to transfer in & out of care, but helper provides <50% assistance to swing legs into car & out of car",
+        "Patient is able to complete most of the steps to transfer in & out of car, including swinging legs in & out; once the patient is turned w/feet on the ground, he is able to use AD/car support to initiate most of force to stand up from car seat, but helper provides <50% of the total effort to get patient out of car"
+    ],
+    "supervision":[
+        "Patient requires prompting & cueing for sequencing to fully accomplish safely transferring in & out of a car or van.",
+        "There may be concerns about safety w/completing task w/o falling over or for orthopedic precautions which require verbal cues from helper for technique",
+        "Touching/Steadying only may be required for hand/foot/trunk placement, standing balance, &/or swinging legs in/out of car."
+    ],
+    "setup":[
+        "Patient needs helper for initial preparation such as getting in position close enough to car/van before transferring or in application of an orthosis /prosthesis/special shoes. Patient may need helper to remove orthosis/prosthesis following activity."
+    ],
+    "independent":[
+        "Patient safely transfers in & out of a car or van on the passenger side w/o any assistance from helper. Patient can use required equipment such as orthosis/prosthesis/special shoes."
+    ]
+}
+]

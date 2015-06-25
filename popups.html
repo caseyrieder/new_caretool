@@ -1,0 +1,74 @@
+<div data-role="page">
+    <div data-role="header">
+        <h1>jQuery Mobile: Popup Use Cases</h1>
+    </div>
+    <div data-role="content">
+
+        <ul data-role="listview" data-inset="true">
+            <li>
+                <a href="#basic" data-rel="popup">Basic popup</a>
+            </li>
+            <li>
+                <a href="#tooltip" data-rel="popup">Tooltip</a>
+            </li>
+            <li>
+                <a href="#lightbox" data-rel="popup" data-position-to="window" data-transition="fade">Lightbox</a>
+            </li>
+            <li>
+                <a href="#form" data-rel="popup" data-transition="fade">Simple Form</a>
+            </li>
+            <li>
+                <a href="#listview" data-rel="popup" data-transition="slideup">Listview Menu</a>
+            </li>
+        </ul>
+
+        <!-- Sample popups, popup div and link must be within same data-role=page container -->
+
+        <!-- basic popup -->
+        <div data-role="popup" id="basic" class="ui-content">
+            <p>My popup content.</p>
+        </div>
+
+        <!-- tooltip popup -->
+        <div data-role="popup" id="tooltip" class="ui-content" data-theme="b">
+            <h4>Tooltip content</h4>
+            <p>This shows how the popup can be used as a nice tooltip as well, with
+                multi-line content.</p>
+        </div>
+
+        <!-- lightbox popup -->
+        <div data-role="popup" id="lightbox" data-overlay-theme="a">
+            <a href="#" data-role="button" data-icon="delete" data-iconpos="notext" data-rel="back" data-theme="a" class="ui-btn-right">Close</a>
+    <img src="http://vernonkesner.com/images/ocean.jpg" alt="Beautiful ocean pic" />
+        </div>
+
+        <!-- simple form -->
+        <div data-role="popup" id="form" class="ui-content" data-theme="a" data-overlay-theme="a">
+            <form name="sampleform" action="" method="post">
+                <label for="uname" class="ui-hidden-accessible">Username</label>
+                <input type="text" name="uname" id="uname" placeholder="username">
+                <label for="pword" class="ui-hidden-accessible">Password</label>
+                <input type="password" name="pword" id="pword" placeholder="password">
+                <input type="submit" name="loginSubmit" id="loginSubmit" value="login" data-theme="b" data-icon="arrow-r" data-iconpos="right">
+            </form>
+        </div>
+
+        <!-- listview -->
+        <div data-role="popup" id="listview" data-theme="a" data-tolerance="0,0">
+            <h4>Choices...</h4>
+            <ul data-role="listview" data-theme="b">
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Account</a>
+                </li>
+            </ul>
+        </div>
+      
+    </div>
+     
+</div>

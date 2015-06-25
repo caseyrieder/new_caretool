@@ -1,0 +1,41 @@
+{
+    "name":"Oral Hygiene",
+    "set":"Self-Care",
+    "id":"A3",
+    "page":"7",
+    "description":"The ability to use suitable items to clean teeth. Dentures: The ability to remove & replace dentures from & to mouth, & manage equipment for soaking & rinsing.",
+    "exceptions":[
+    	"Not about whether patient brushes teeth in sitting or standing position",
+    	"Not about the level of assistance needed to get to the bathroom"    	
+    ],
+    "tips":[
+		"Rating is the same whether patient uses an electric or a conventional toothbrush"
+    ],
+    "dependent":[
+    	"Patient is totally dependent on helper to brush teeth &/or remove/replace dentures from & to mouth. Patient is totally dependent on helper to clean dentures."
+    ],
+    "substantial":[
+    	"Patient can bring toothbrush to mouth but helper assists w/applying toothpaste & completing oral care w/toothbrush",
+    	"Patient can remove or replace dentures, & helper is required to manage equipment for soaking/rinsing",
+    	"Patient can manage some equipment for cleaning dentures, but is unable to safely/fully remove dentures or replace them for proper fit.",
+    	"Helper guides the limb & provides >50% the effort in assisting patient in cleaning teeth or removing/replacing dentures & managing equipment."
+    ],
+	"partial":[
+		"Patient can remove & replace dentures, but helper is required to assist patient w/managing equipment for soaking/rinsing",
+		"Patient can manage all the equipment for cleaning dentures, but is unable to safely/fully remove dentures or replace them for proper fit.",
+		"Helper guides the limb & provides <50% the effort in assisting patient in cleaning teeth or removing/replacing dentures & managing equipment."
+	],
+	"supervision":[
+		"There may be concerns about safety w/hot water or maintaining hygienic conditions for dentures requireing verbal cues from helper for technique.",
+		"Touching/steadying only may be required w/applying toothpaste or using toothbrush to fully complete oral care or managing equipment for soaking/rinsing or removing/replacing dentures"
+	],
+	"setup":[
+		"Helper only assists prior to or after oral hygiene",
+		"Patient can brush teeth once toothpaste is applied to toothbrush",
+		"Patient can replace & remove dentures independently, but needs helper to set up equipment for soaking"
+	],
+	"independent":[
+		"Patient can apply toothpaste & brush teeth independently. Patient cares for dentures independently & is able to remove/replace them w/o helper assistance."
+		
+	]    
+}
