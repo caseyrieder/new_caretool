@@ -1,6 +1,6 @@
 # CARE Tool App
 
-<!--This is an early-in-the-development-process app for PTs & OTs working in acute rehabilitation. It will be a reference and documentation system for the CARE Tool, which will be mandated beginning in October 2016.-->
+<!--This is an early-in-the-development-process jQuery Mobile app for PTs & OTs working in acute rehabilitation. It will be a reference and documentation system for the CARE Tool, which will be mandated beginning in October 2016.-->
 
 <!--When completed, this app will permit clinicians to study the CARE Tool, complete quizzes, gain certification, and document their patient sessions-->
 
