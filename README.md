@@ -1,4 +1,10 @@
-# new_caretool 
+# CARE Tool App
+
+<!--This is an early-in-the-development-process app for PTs & OTs working in acute rehabilitation. It will be a reference and documentation system for the CARE Tool, which will be mandated beginning in October 2016.-->
+
+<!--When completed, this app will permit clinicians to study the CARE Tool, complete quizzes, gain certification, and document their patient sessions-->
+
+
 
 There is a lot of junk in here, so just focus on a few files to work from:
 
