@@ -70,7 +70,7 @@ function loadLists() {
         });
 
         $("#manager-submit").on('click', function() {
-            makePostAsyncRequest('http://192.168.1.13:9000/assessment/sendToManager/' + storeObject.assessmentId, null, function() {
+            makePostAsyncRequest('assessment/sendToManager/' + storeObject.assessmentId, null, function() {
                 $("#score-page-submit-manager").popup("close");
                 alert('Submitted to manager');
                 $.mobile.changePage("#scheduling");
@@ -195,7 +195,7 @@ function loadPatients() {
 }
 
 function loadScheduledPatients() {
-    makeGetAsyncRequest('http://192.168.1.13:9000/patients/getMyPatients?peeteeId=' + storeObject.peeteeId, function(response) {
+    makeGetAsyncRequest('patients/getMyPatients?peeteeId=' + storeObject.peeteeId, function(response) {
         var pats = "";
         var sessionline = "<li class='list-item'><a href='#sessions-page?id=";
         for (var p in response) {
@@ -211,7 +211,7 @@ function loadScheduledPatients() {
 
 //Show Full History
 function loadHistory() {
-    makeGetAsyncRequest('http://192.168.1.13:9000/patients/getHistory?patientId=' + storeObject.currentPatient, function(res) {
+    makeGetAsyncRequest('patients/getHistory?patientId=' + storeObject.currentPatient, function(res) {
         var hist = "";
         var entryline = "<li><a href='#assessment-history-page?id=";
         for (var h in res) {
@@ -228,7 +228,7 @@ function loadHistory() {
 }
 
 function loadQuestions() {
-    makeGetAsyncRequest('http://192.168.1.13:9000/careTool/items/', function(response) {
+    makeGetAsyncRequest('careTool/items/', function(response) {
         console.log(response);
         storeObject.exerciseList = response;
         storeObject.currentExercise = 0;
@@ -242,7 +242,7 @@ function createAssesment() {
         "patient_id": storeObject.currentPatient
     };
     var assessmentId = null;
-    makePostAsyncRequest('http://192.168.1.13:9000/assessment/create', assessment, function(response) {
+    makePostAsyncRequest('assessment/create', assessment, function(response) {
         console.log(response);
         storeObject.assessmentId = response.split(":")[1];
         loadQuestions();
@@ -251,7 +251,7 @@ function createAssesment() {
 
 function showQuestion(name) {
 
-    makeGetAsyncRequest('http://192.168.1.13:9000/careTool/items/name/' + name, function(question) {
+    makeGetAsyncRequest('careTool/items/name/' + name, function(question) {
         // Considering only the first question
         question = question[0];
         $("#score-page h1").text(question.name);
@@ -324,7 +324,7 @@ function submitAnswer(assessmentId, answer) {
     // hide the popup
     $("#score-page-scoring").popup("close");
 
-    makePostAsyncRequest('http://192.168.1.13:9000/assessment/addScore?assessmentId=' + assessmentId, answer, function(response) {
+    makePostAsyncRequest('assessment/addScore?assessmentId=' + assessmentId, answer, function(response) {
         // goto next question
         storeObject.currentExercise++;
         if (storeObject.currentExercise == storeObject.exerciseList.length) {
@@ -362,7 +362,7 @@ function renderCurrentHistory() {
     var assessment = storeObject.patientHistory[storeObject.currentAssessmentHistory];
     var name = storeObject.exerciseList[storeObject.currentAssessmentHistory].name;
 
-    makeGetAsyncRequest('http://192.168.1.13:9000/careTool/items/name/' + name, function(question) {
+    makeGetAsyncRequest('careTool/items/name/' + name, function(question) {
         // Considering only the first question
         question = question[0];
         $("#assessment-history h1").text(question.name);
@@ -392,7 +392,7 @@ function renderCurrentHistory() {
 function makePostAsyncRequest(url, data, successCallback) {
     $.ajax({
         type: 'POST',
-        url: url,
+        url: 'http://192.168.1.13:9000/' + url,
         data: JSON.stringify(data),
         contentType: "application/json",
         processData: false
@@ -406,7 +406,7 @@ function makePostAsyncRequest(url, data, successCallback) {
 function makeGetAsyncRequest(url, successCallback) {
     $.ajax({
         type: 'GET',
-        url: url,
+        url: 'http://192.168.1.13:9000/' + url,
         contentType: "application/json",
         processData: false
     }).done(function(response) {
