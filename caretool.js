@@ -13,7 +13,9 @@ var storeObject = {
     exerciseList: null,
     peeteeId: 1,
     patientHistory: null,
-    currentAssessmentHistory: null
+    currentAssessmentHistory: null,
+    currentQuestionInAssessmentHistory: null,
+    possibleAnswers: ["Dependent", "Substantial / Maximal Assistance", "Partial / Moderate Assistance", "Supervision / Touching Assistance", "Setup or Clean-Up Assistance", "Independent", "Non-Numeric Scores"]
 }
 
 function loadLists() {
@@ -52,7 +54,21 @@ function loadLists() {
 
     $("#assessment-history-page").on('pagebeforeshow', function() {
         // render the history
-        renderCurrentHistory();
+        storeObject.currentQuestionInAssessmentHistory = 0;
+        renderCurrentHistory(storeObject.currentQuestionInAssessmentHistory);
+    });
+
+    $("#assessment-history-page").on('pagebeforecreate', function() {
+        // configure the next button
+        $("#assessment-history-page .next").on('click', function() {
+            if (storeObject.currentQuestionInAssessmentHistory + 1 == storeObject.exerciseList.length) {
+                alert('Done with this assessment');
+                $.mobile.changePage("#scheduling");
+            } else {
+                storeObject.currentQuestionInAssessmentHistory++;
+                renderCurrentHistory(storeObject.currentQuestionInAssessmentHistory);
+            }
+        })
     });
 
     $("#score-page").on('pagebeforecreate', function() {
@@ -358,9 +374,8 @@ function submitComment(assessmentId, comment) {
     });
 }
 
-function renderCurrentHistory() {
-    var assessment = storeObject.patientHistory[storeObject.currentAssessmentHistory];
-    var name = storeObject.exerciseList[storeObject.currentAssessmentHistory].name;
+function renderCurrentHistory(currentQuestionInAssessmentHistory) {
+    var name = storeObject.exerciseList[currentQuestionInAssessmentHistory].name;
 
     makeGetAsyncRequest('careTool/items/name/' + name, function(question) {
         // Considering only the first question
@@ -385,7 +400,12 @@ function renderCurrentHistory() {
         }
         $("#assessment-history-score-tips").html(v);
 
-        $('input:radio[name=assessment-radio-score-choice]');
+        var assessment = storeObject.patientHistory[storeObject.currentAssessmentHistory];
+        var score = assessment.scores[currentQuestionInAssessmentHistory].score;
+        var notes = assessment.documentation[currentQuestionInAssessmentHistory].comments;
+
+        $("#chosen-answer").val(storeObject.possibleAnswers[score]);
+        $("#assessment-history-answer-notes").val(notes);
     });
 }
 
