@@ -243,6 +243,7 @@
                     </div>
                     <div class="ui-block-b activity-btns">
                         <a href="#" id="score-page-exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Photo/Video</a>
+                        <input type="file" id="question-media"/>
                     </div>
                     <div class="ui-block-c activity-btns">
                         <label for="answer-notes">Notes</label>
@@ -340,7 +341,12 @@
                         <input type="text" name="chosen-answer" id="chosen-answer">
                     </div>
                     <div class="ui-block-b activity-btns">
-                        <a href="#" id="assessment-history-exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Photo/Video</a>
+                        <!-- <a href="#" id="assessment-history-exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Video</a> -->
+                        <a id="assessment-history-exercise-video" href="#popupPhotoLandscape" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Photo/Video</a>
+
+                        <div data-role="popup" id="popupPhotoLandscape" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+                            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img id="assessment-history-image" alt="No Image uploaded">
+                        </div>
                     </div>
                     <div class="ui-block-c activity-btns">
                         <label for="answer-notes">Notes</label>

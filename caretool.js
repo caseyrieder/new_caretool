@@ -15,6 +15,7 @@ var storeObject = {
     patientHistory: null,
     currentAssessmentHistory: null,
     currentQuestionInAssessmentHistory: null,
+    fileToUpload: null,
     possibleAnswers: ["Dependent", "Substantial / Maximal Assistance", "Partial / Moderate Assistance", "Supervision / Touching Assistance", "Setup or Clean-Up Assistance", "Independent", "Non-Numeric Scores"]
 }
 
@@ -74,15 +75,53 @@ function loadLists() {
     $("#score-page").on('pagebeforecreate', function() {
         // register the submit handler
         $("#score-page-score-submit").on('click', function() {
-            var answer = {
-                "timestamp": (new Date()).getTime(),
-                "code": storeObject.exerciseList[storeObject.currentExercise].code,
-                "score": $('input:radio[name=radio-score-choice]:checked').val(),
-                "peeteeId": 1,
-                "text": $("#answer-notes").val(),
-                "mediaUrl": "http://"
+
+            if (storeObject.fileToUpload != null && storeObject.fileToUpload != undefined && storeObject.fileToUpload.length != 0) {
+                // upload file to S3
+                var data = new FormData();
+                $.each(storeObject.fileToUpload, function(key, value) {
+                    data.append("file", value);
+                });
+
+                $.ajax({
+                    url: 'http://192.168.1.13:9000/assessment/uploadFile',
+                    type: 'POST',
+                    data: data,
+                    cache: false,
+                    processData: false, // Don't process the files
+                    contentType: false, // Set content type to false as jQuery will tell the server its a query string request
+                }).done(function(response) {
+                    console.log(response);
+
+                    var answer = {
+                        "timestamp": (new Date()).getTime(),
+                        "code": storeObject.exerciseList[storeObject.currentExercise].code,
+                        "score": $('input:radio[name=radio-score-choice]:checked').val(),
+                        "peeteeId": 1,
+                        "text": $("#answer-notes").val(),
+                        "mediaUrl": response
+                    }
+                    submitAnswer(storeObject.assessmentId, answer);
+
+                }).fail(function(error) {
+                    alert(JSON.stringify(error));
+                });
+            } else {
+                var answer = {
+                    "timestamp": (new Date()).getTime(),
+                    "code": storeObject.exerciseList[storeObject.currentExercise].code,
+                    "score": $('input:radio[name=radio-score-choice]:checked').val(),
+                    "peeteeId": 1,
+                    "text": $("#answer-notes").val(),
+                    "mediaUrl": null
+                }
+                submitAnswer(storeObject.assessmentId, answer);
             }
-            submitAnswer(storeObject.assessmentId, answer);
+
+        });
+
+        $('#question-media').on('change', function(event) {
+            storeObject.fileToUpload = event.target.files;
         });
 
         $("#manager-submit").on('click', function() {
@@ -353,6 +392,8 @@ function submitAnswer(assessmentId, answer) {
         $('input:radio[name=radio-score-choice]:checked').removeAttr("checked");
         $("input:radio[name=radio-score-choice]").checkboxradio("refresh");
         $("input:radio[name=radio-score-choice]:first").attr("checked", true);
+
+        $("#question-media").val('');
     });
 
 }
@@ -380,7 +421,7 @@ function renderCurrentHistory(currentQuestionInAssessmentHistory) {
     makeGetAsyncRequest('careTool/items/name/' + name, function(question) {
         // Considering only the first question
         question = question[0];
-        $("#assessment-history h1").text(question.name);
+        $("#assessment-history-page h1").text(question.name);
         //Description
         $("#assessment-history-score-desc").html(question.description);
         //Exceptions
@@ -403,9 +444,17 @@ function renderCurrentHistory(currentQuestionInAssessmentHistory) {
         var assessment = storeObject.patientHistory[storeObject.currentAssessmentHistory];
         var score = assessment.scores[currentQuestionInAssessmentHistory].score;
         var notes = assessment.documentation[currentQuestionInAssessmentHistory].comments;
+        var attachmentURL = assessment.documentation[currentQuestionInAssessmentHistory].pathToAttachment;
 
         $("#chosen-answer").val(storeObject.possibleAnswers[score]);
         $("#assessment-history-answer-notes").val(notes);
+        if (attachmentURL != null) {
+            $("#assessment-history-exercise-video").show();
+            $('#assessment-history-image').attr("src", attachmentURL);    
+        } else {
+            $("#assessment-history-exercise-video").hide();
+        }
+        
     });
 }
 
