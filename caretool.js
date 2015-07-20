@@ -16,7 +16,7 @@ var storeObject = {
     currentAssessmentHistory: null,
     currentQuestionInAssessmentHistory: null,
     fileToUpload: null,
-    possibleAnswers: ["Dependent", "Substantial / Maximal Assistance", "Partial / Moderate Assistance", "Supervision / Touching Assistance", "Setup or Clean-Up Assistance", "Independent", "Non-Numeric Scores"]
+    possibleAnswers: ["","Dependent", "Substantial / Maximal Assistance", "Partial / Moderate Assistance", "Supervision / Touching Assistance", "Setup or Clean-Up Assistance", "Independent", "Not Attempted - Safety Concerns","Not Applicable","Not Completed","Patient Refused"]
 }
 
 function loadLists() {
