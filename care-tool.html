@@ -17,14 +17,15 @@
         <h1>Main Menu</h1>
     </div><!--Header-->
     <div data-role="content" class="list-content text-center" data-inset="true">
-        <h3 style="color: white; text-shadow: none">Welcome to Lexicon's CARE Tool Trainer</h3>
+        <h3 style="color: white; text-shadow: none">Welcome to Lexicon's CARE Tool Trainer's PT interface</h3>
         <br><br>
-        <a href="#exercises" id="exercises-btn" data-role="button" data-theme="c">Exercises</a>
-        <a href="training.html" id="training-btn" rel="external" data-rel="dialog" data-role="button" data-theme="c">Training</a>
+        <a href="#exercises" id="exercises-btn" data-role="button" data-theme="c">Learning</a>
+        <a href="#scheduling" id="scheduling-btn" data-role="button" data-theme="c">Scheduling</a>
+        <!-- <a href="training.html" id="training-btn" rel="external" data-rel="dialog" data-role="button" data-theme="c">Training</a>
         <a href="#patients"  id="patients-btn" data-role="button" data-theme="c">Patients</a>
         <a href="#history" id="history-btn" data-role="button" data-theme="c">History</a>
         <a href="addpatient.html" id="add-patient-btn" data-rel="dialog" data-role="button" data-theme="c">Add Patient</a>
-        <a href="documentsession.html" id="documentation-btn" rel="external" data-rel="dialog" data-role="button" data-theme="c">Document Session</a>
+        <a href="documentsession.html" id="documentation-btn" rel="external" data-rel="dialog" data-role="button" data-theme="c">Document Session</a> -->
     </div><!--List-->
     <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
         <h4>Lexicon</h4>
@@ -82,7 +83,7 @@
                         <a href="#scoring" data-rel="popup" data-position-to="origin" class="ui-btn ui-btn-inline ui-icon-clock ui-btn-icon-top rounded-corners">Scoring</a>
                     </div>
                     <div class="ui-block-b activity-btns">
-                        <a href="#" id="exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Video</a>
+                        <a href="#" id="exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Photo/Video</a>
                     </div>
                     <div class="ui-block-c activity-btns">
                         <a href="#examples" data-rel="popup" class="ui-btn ui-btn-inline ui-icon-grid ui-btn-icon-top rounded-corners" data-theme="d">Examples</a>
@@ -173,11 +174,226 @@
     </div><!--Footer-->
 </div><!--Page-->
 
+<!--SCHEDULING-->
+<div data-role="page" id="scheduling" data-url="scheduling" data-add-back-btn="true" class="page-backdrop">
+    <div data-role="header" data-theme="b">
+        <h1>Scheduling</h1>
+    </div><!--Header-->
+    <div data-role="content" class="list-content">
+        <ul id="scheduling-patients-list" data-role="listview" data-inset="true"></ul>
+    </div><!--List-->
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+        <h4>Lexicon</h4>
+    </div><!--Footer-->
+</div><!--Page-->
+
+<!--SESSIONS-->
+<div data-role="page" id="sessions-page" data-add-back-btn="true" class="page-backdrop">
+    <div data-role="header" data-theme="b">
+        <h1>Sessions</h1>
+    </div><!--Header-->
+    <div data-role="content" class="list-content">
+        <ul id="sessions-list" data-role="listview" data-inset="true"></ul>
+        <div>
+            <a href="#score-page" data-role="button" data-theme="c">Document Session</a>
+            <a href="#history" data-rel="dialog" data-role="button" data-theme="c">Patient History</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+        <h4>Lexicon</h4>
+    </div><!--Footer-->
+</div><!--Page-->
+
+<!--SCORE-->
+<div data-role="page" id="score-page" data-url="score-page" data-add-back-btn="true" class="page-backdrop">
+    <div data-role="header" data-theme="b">
+        <h1></h1>
+    </div><!--Header-->
+    <div data-role="content">
+        <div class="score-content">
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Description</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="score-page-score-desc"></p>
+                </div>
+            </div><!--Description-->
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Exceptions</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="score-page-score-excep"></p>
+                </div>
+            </div><!--Exceptions-->
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Tips</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="score-page-score-tips"></p>
+                </div>
+            </div><!--Tips-->
+            <br>
+            <div>
+                <fieldset class="ui-grid-b text-center">
+                    <div class="ui-block-a activity-btns">
+                        <a href="#score-page-scoring" data-rel="popup" data-position-to="origin" class="ui-btn ui-btn-inline ui-icon-clock ui-btn-icon-top rounded-corners">Scoring</a>
+                    </div>
+                    <div class="ui-block-b activity-btns">
+                        <a href="#" id="score-page-exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Photo/Video</a>
+                        <input type="file" id="question-media"/>
+                    </div>
+                    <div class="ui-block-c activity-btns">
+                        <label for="answer-notes">Notes</label>
+                        <input type="text" name="answer-notes" id="answer-notes" placeholder="Enter notes here">
+                    </div>
+                </fieldset>
+            </div><!--Buttons-->
+        </div><!--Activity Content-->
+        <div data-role="popup" id="score-page-scoring" class="ui-content page-backdrop" data-overlay-theme="a">
+
+            <fieldset data-role="controlgroup">
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-1" value="1" checked="checked">
+                <label for="radio-score-choice-1">1. Dependent</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-2" value="2">
+                <label for="radio-score-choice-2">2. Substantial / Maximal Assistance</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-3" value="3">
+                <label for="radio-score-choice-3">3. Partial / Moderate Assistance</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-4" value="4">
+                <label for="radio-score-choice-4">4. Supervision / Touching Assistance</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-5" value="5">
+                <label for="radio-score-choice-5">5. Setup or Clean-Up Assistance</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-6" value="6">
+                <label for="radio-score-choice-6">6. Independent</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-7" value="7">
+                <label for="radio-score-choice-7">S. Not Attempted - Safety Concerns</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-8" value="8">
+                <label for="radio-score-choice-8">N. Not Applicable</label>
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-9" value="9">
+                <label for="radio-score-choice-9">A. Not Completed</label> 
+
+                <input type="radio" name="radio-score-choice" id="radio-score-choice-10" value="10">
+                <label for="radio-score-choice-10">P. Patient Refused</label> 
+
+                
+            </fieldset>
+        </div><!--Answer Popup-->
+
+        <div data-role="popup" id="score-page-submit-manager" class="ui-content page-backdrop" data-overlay-theme="a">
+            <h3>Submit to Manager</h3>
+            <a id="manager-submit" data-role="button" data-theme="c">Yes</a>
+            <a href="#scheduling" data-role="button" data-theme="c">No</a>
+        </div><!--Submit to manager Popup-->
+
+    </div><!--Content-->
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+        <div class="ui-grid-b text-center">
+            <div class="ui-block-a">
+                <a href="#" class="ui-shadow ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Previous</a>
+            </div>
+            <div class="ui-block-b">
+                <a id="score-page-score-submit" data-role="button" data-theme="c">Submit</a>
+            </div>
+            <div class="ui-block-c">
+                <a href="#" class="ui-shadow ui-btn ui-btn-inline ui-corner-all ui-btn-icon-right ui-icon-arrow-r">Next</a>
+            </div>
+        </div>
+    </div><!--Footer-->
+</div><!--Page-->
+
+<!--ASSESSMENT HISTORY-->
+<div data-role="page" id="assessment-history-page" data-url="assessment-history-page" data-add-back-btn="true" class="page-backdrop">
+    <div data-role="header" data-theme="b">
+        <h1></h1>
+    </div><!--Header-->
+    <div data-role="content">
+        <div class="score-content">
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Description</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="assessment-history-score-desc"></p>
+                </div>
+            </div><!--Description-->
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Exceptions</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="assessment-history-score-excep"></p>
+                </div>
+            </div><!--Exceptions-->
+            <div class="ui-corner-all">
+                <div class="ui-bar ui-bar-a score-head">
+                    <h3>Tips</h3>
+                </div>
+                <div class="ui-body ui-body-a score-section">
+                    <p id="assessment-history-score-tips"></p>
+                </div>
+            </div><!--Tips-->
+            <br>
+            <div>
+                <fieldset class="ui-grid-b text-center">
+                    <div class="ui-block-a activity-btns">
+                        <label for="chosen-answer">Score</label>
+                        <input type="text" name="chosen-answer" id="chosen-answer">
+                    </div>
+                    <div class="ui-block-b activity-btns">
+                        <!-- <a href="#" id="assessment-history-exercise-video" class="ui-btn ui-btn-inline ui-icon-video ui-btn-icon-top rounded-corners" data-theme="a">Video</a> -->
+                        <a id="assessment-history-exercise-video" href="#popupPhotoLandscape" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Photo/Video</a>
+
+                        <div data-role="popup" id="popupPhotoLandscape" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+                            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img id="assessment-history-image" alt="No Image uploaded">
+                        </div>
+                    </div>
+                    <div class="ui-block-c activity-btns">
+                        <label for="answer-notes">Notes</label>
+                        <input type="text" name="answer-notes" id="assessment-history-answer-notes">
+                    </div>
+                </fieldset>
+            </div><!--Buttons-->
+        </div><!--Activity Content-->
+
+    </div><!--Content-->
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="b">
+        <div class="ui-grid-b text-center">
+            <div class="ui-block-a">
+                <a href="#" class="ui-shadow ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Previous</a>
+            </div>
+            <div class="ui-block-b">
+                <a id="score-page-score-submit" data-role="button" data-theme="c">Submit</a>
+            </div>
+            <div class="ui-block-c">
+                <a href="#" class="ui-shadow ui-btn ui-btn-inline ui-corner-all ui-btn-icon-right ui-icon-arrow-r next">Next</a>
+            </div>
+        </div>
+    </div><!--Footer-->
+</div><!--Page-->
+
 <script>
 //Initialize App
-$(document).on("pagecreate", "#main-menu", function() {
+// $(document).on("pagecreate", "#main-menu", function() {
+//     loadLists();
+// }); 
+$(document).ready(function() {
     loadLists();
-}); 
+    makeGetAsyncRequest('careTool/items/', function(response) {
+        storeObject.exerciseList = response;
+        storeObject.currentExercise = 0;
+    });
+});
 </script>
 
 
